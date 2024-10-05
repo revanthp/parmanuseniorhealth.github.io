@@ -1,0 +1,15 @@
+[submodule "themes/hugo-flex"]
+	path = themes/hugo-flex
+	url = https://github.com/ldeso/hugo-flex.git
+[submodule "themes/Mainroad"]
+	path = themes/Mainroad
+	url = https://github.com/Vimux/Mainroad.git
+[submodule "hugo-bootstrap-theme"]
+	path = hugo-bootstrap-theme
+	url = https://github.com/filipecarneiro/hugo-bootstrap-theme.git
+[submodule "themes/hugo-bootstrap-theme"]
+	path = themes/hugo-bootstrap-theme
+	url = https://github.com/filipecarneiro/hugo-bootstrap-theme.git
+[submodule "themes/toha"]
+	path = themes/toha
+	url = https://github.com/hugo-toha/toha.git

@@ -1,0 +1,27 @@
+<!-- layouts/partials/auto-menu.html -->
+<ul class="navbar-nav">
+	{{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if eq .Name "Projects" }}
+	<li class="nav-item dropdown">
+		<a
+			class="nav-link dropdown-toggle"
+			href="#"
+			id="navbarDropdown"
+			role="button"
+			data-toggle="dropdown"
+			aria-haspopup="true"
+			aria-expanded="false"
+		>
+			{{ .Name }}
+		</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			{{ range where $.Site.RegularPages "Section" "projects" }}
+			<a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Title }}</a>
+			{{ end }}
+		</div>
+	</li>
+	{{ else }}
+	<li class="nav-item">
+		<a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+	</li>
+	{{ end }} {{ end }}
+</ul>

@@ -1,0 +1,40 @@
+baseURL = 'https://paramanuseniorshealth.org/'
+title = ""
+author = "Dr. Venu Babu Pentyala"
+copyright = "MIT Licensed."
+
+timeZone = 'Asia/Kolkata'
+
+# Multilingual
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+theme = "hugo-bootstrap-theme"
+
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+#enableGitInfo = true
+enableEmoji = true
+#sectionPagesMenu = "main"
+#googleAnalytics = "UA-1511XXXX-X"
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = 'series'
+# author = "authors"
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[permalinks]
+#  post = "/post/:title/"
+
+[params]
+themeVariant = "blue"

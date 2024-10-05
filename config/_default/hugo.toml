@@ -1,0 +1,115 @@
+
+# # Basic site configuration
+# baseURL = 'https://paramanuseniorshealth.org/'
+# languageCode = 'en-us'
+# title = "Parmanu Senior's Health"
+# theme = ["toha", "hugo-bootstrap-theme"]
+
+# # Content and build settings
+# sectionPagesMenu = 'main'
+# contentdir = "content"
+# publishdir = "public"
+# builddrafts = false
+# buildFuture = false
+# buildExpired = false
+# canonifyurls = true
+# enableInlineShortcodes = true
+# enableRobotsTXT = true
+# enableEmoji = true
+# pygmentsUseClasses = true
+# enableGitInfo = true
+
+# # Site parameters
+# [params]
+#   description = "Atomic "
+#   keywords = ["Atomic Energy", "DAE", "Department of Atomic Energy", "Seniors", "Retirement", "Pension", "Healthcare"]
+#   author = ["Venu Babu Pentyala"]
+#   defaultTheme = "auto"
+#   search_engine = true
+#   env = "production"
+#   ShowShareButtons = true
+#   ShowReadingTime = true
+#   ShowPostNavLinks = true
+#   ShowBreadCrumbs = true
+#   ShowCodeCopyButtons = true
+#   ShowRssButtonInSectionTermList = true
+#   ShowAllPagesInArchive = true
+#   ShowPageNums = true
+#   ShowToc = true
+#   email = "paramanuseniors@protonmail.com"
+#   phone = "+91-93727-93791"
+#   location = "VASHI, Navi Mumbai"
+
+# [params.assets]
+#   favicon = "/favicon.ico"
+#   favicon16x16 = "/favicon-16x16.png"
+#   favicon32x32 = "/favicon-32x32.png"
+#   apple_touch_icon = "/apple-touch-icon.png"
+#   safari_pinned_tab = "/safari-pinned-tab.svg"
+
+# [params.homeInfoParams]
+#   Title = "Parmanu Senior's Health"
+#   Content = "👋 Welcome to home page of Parmanu Senior's Health!"
+
+# # Menus
+
+
+
+# # Taxonomies
+# [taxonomies]
+#   category = "categories"
+#   tag = "tags"
+#   series = "series"
+
+# # Markup settings
+# [markup]
+#   [markup.tableOfContents]
+#     endLevel = 3
+#     ordered = false
+#     startLevel = 2
+#   [markup.goldmark.renderer]
+#     unsafe = true
+#   [markup.highlight]
+#     noClasses = false
+
+# # Output formats
+# [outputs]
+#   home = ["HTML", "JSON"]
+#   section = [ "HTML", "RSS" ]
+
+# # Sitemap
+# [sitemap]
+#   changefreq = "weekly"
+#   filename = "sitemap.xml"
+
+# # Author information
+# [author]
+#   name = "Dr. Venu Babu Pentyala"
+#   email = "venubabumumbai@gmail.com"
+
+# # Security settings
+# [security]
+#   enableInlineShortcodes = true
+#   [security.exec]
+#     allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$", "^git$"]
+#     osEnv = ["(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|RUBYLIB)$"]
+#   [security.funcs]
+#     getenv = ["^HUGO_"]
+#   [security.http]
+#     methods = ["(?i)GET|POST"]
+#     urls = [".*"]
+
+# # Minification
+# [minify]
+#   disableXML = true
+#   minifyOutput = true
+
+# # Google Analytics
+# [services.googleAnalytics]
+#   ID = "googlec454b1d57d24080d"
+
+# [[analytics.google]]
+#   SiteVerificationTag = "googlec454b1d57d24080d"
+
+# [[module.imports]]
+#   path = "toha"
