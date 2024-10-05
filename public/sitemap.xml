@@ -237,18 +237,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/dae-units/</loc>
-    <lastmod>2024-10-05T21:53:20+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/holidays/</loc>
-    <lastmod>2024-10-05T18:59:46+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-05T23:52:28+05:30</lastmod>
+    <lastmod>2024-10-06T03:08:58+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

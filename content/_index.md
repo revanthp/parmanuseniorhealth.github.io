@@ -9,21 +9,63 @@ weight: 30
 images: ['images/logo.jpeg']
 ---
 
+<style>
+  .centered-helpline {
+    text-align: center;
+    color: #B22222; /* Brick Red */
+    font-weight: bold;
+  }
+  .video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .music-link {
+    background-color: yellow;
+    font-size: 2em;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .deep-sea-blue-banner {
+    background-color: #0077be; /* Deep Sea Blue */
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .deep-sea-blue-banner h3 {
+    margin: 0;
+  }
+  .deep-sea-blue-banner ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .deep-sea-blue-banner a {
+    color: white;
+    text-decoration: none;
+  }
+  .deep-sea-blue-banner a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+
 This web site viz., PARAMANUSENIORSHEALTH.ORG has been created to make pensioners and the family of CHSS (Contributory Health Services Scheme) beneficiaries of DAE (Department of Atomic Energy) feel part of a larger network they were otherwise used to during their 3 to 4 decades of active and productive lives they led. The site is designed to be the ultimate and a single stop for all the information needs of senior citizens in DAE. Further, a good amount of information is compiled which even the working employees find it highly useful, thus enabling smooth transition for them from active service to retired life.
 
 Every effort is made to cater specifically to the day to day requirements and quest for vast worldly knowledge matching with the intellectual appetite and calibre of DAE fraternity.
 
-{{< youtube fULvjpAPlxA >}}
+<div class="video-container">
+  {{< youtube fULvjpAPlxA >}}
+  {{< youtube HpPtnDbGBVg >}}
+</div>
 
 
-{{< youtube HpPtnDbGBVg >}}
-
-[Links for Indian Classical Music](https://paramanuseniorshealth.org/images/Links%20for%20Indian%20Classical%20Music.pdf)
+<a href="https://paramanuseniorshealth.org/images/Links%20for%20Indian%20Classical%20Music.pdf" class="music-link">🔘Links for Indian Classical Music</a>
 
 
-## Help Line : 112
-
-### (Police, Fire, Health & Women Help Line)
+<h2 class="centered-helpline">Help Line : 112 (Police, Fire, Health & Women Help Line)</h2>
 
 | Department/Service | Contact Number |
 |--------------------|-----------------|
@@ -50,6 +92,6 @@ Every effort is made to cater specifically to the day to day requirements and qu
 | National Help Line – Senior Citizens | 14567 |
 | National Consumer Helpline | 1-800-4000 |
 
-### Latest Circulars
-- [A. Jan – Jun](under-const.html)
-- [B. Jul – Dec](under-const.html)
+<div class="deep-sea-blue-banner">
+  <h3>Latest Circulars: <a href="under-const.html" style="color: orange;"> A. Jan – Jun  </a>, <a href="under-const.html" style="color: orange;"> B. Jul – Dec</a></h3>
+</div>
