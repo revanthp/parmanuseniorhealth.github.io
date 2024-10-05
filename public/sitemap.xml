@@ -278,7 +278,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-04T15:35:25+05:30</lastmod>
+    <lastmod>2024-10-06T01:00:02+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -296,8 +296,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/contact/</loc>
+    <lastmod>2024-10-06T01:00:02+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2024-10-05T21:48:35+05:30</lastmod>
+    <lastmod>2024-10-06T01:00:02+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
