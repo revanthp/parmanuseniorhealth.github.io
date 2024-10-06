@@ -64,6 +64,11 @@ Every effort is made to cater specifically to the day to day requirements and qu
 
 <a href="https://paramanuseniorshealth.org/images/Links%20for%20Indian%20Classical%20Music.pdf" class="music-link">🔘Links for Indian Classical Music</a>
 
+<h4 style="color: orange;">Frequently Required Information</h4>
+
+#### [OPDs & Dispensaries]('images/Dispensaries%20and%20OPDs%20For%20seperate%20Tab%20_%20Revised%20File-1.pdf')
+
+#### [Intimation of Death & organ donation]('images/Intimation%20About%20Death%20and%20Organ%20Donation.pdf')
 
 <h2 class="centered-helpline">Help Line : 112 (Police, Fire, Health & Women Help Line)</h2>
 

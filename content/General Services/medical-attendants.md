@@ -1,16 +1,15 @@
 ---
-title: "Commutation"
+title: "Medical Attendants"
 description: ""
 date: 2023-04-14T15:30:00+05:30
 lastmod: 2023-04-14T15:30:00+05:30
 draft: false
 weight: 30
-images: []
 type: "page"
 layout: "single"
 menu:
   main:
-    parent: "Pensioners' Corner"
+    parent: "General Information"
 ---
 
-[Commutation]()
+[Download Medical Attendants PDF](/pdf/get-well-soon.pdf)

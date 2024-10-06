@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+  <h1 class="page-title">
+    {{ .Title | markdownify }}
+  </h1>
+
+  <div class="infotainment">
+    {{ $content := .Content }}
+    {{ $regex := "<li>(.*?)</li>" }}
+    {{ range findRE $regex $content }}
+      {{ $item := . | replaceRE "</?li>" "" | safeHTML }}
+      <div class="infotainment-item">
+        <div class="infotainment-item-content">
+          <h2 class="infotainment-item-title">{{ $item }}</h2>
+          <span class="infotainment-item-icon">↓</span>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

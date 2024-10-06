@@ -115,7 +115,11 @@ menu:
 | AAO (Salary) | 2788 7012 |
 | P&AO | 2788 7010 |
 
-### NRB Pension, Medical etc: Same as for BARC Retirees
+### NRB
+
+| Department | Phone Number |
+|------------|--------------|
+| Pension, Medical etc | Same as for BARC Retirees |
 
 ### AEES
 

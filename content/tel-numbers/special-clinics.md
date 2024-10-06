@@ -67,30 +67,3 @@ menu:
 |-----------|------|
 | Well Baby | Thu  |
 | Gynaec    | Sat  |
-
-## Table of Contents
-
-- [Hospital](telephone-nimbers.html)
-- [Dispensaries](dispensaries.html)
-- [Special Clinics](special-clinics.html)
-- [General Numbers](general-numbers.html)
-
-## Quick Links:
-
-- [CHSS and Health Matters](chss-health-matters.html)
-- [Pension Related](pension.html)
-- [Fin. & Gen. Services & Health Awareness](miscellaneous.html)
-- [About Us](about-us.html)
-- [Tel Nos - Detailed List](telephone-nimbers.html)
-- [Blog](http://www.paramanuseniorshealth.org/blog/)
-- [Links to DAE Units](images/Hyperlinks%20to%20DAE%20Units.pdf)
-
-## Contact Us
-
-- Phone: +91 93727 93791
-- Email: paramanuseniors@protonmail.com
-- Address: 201 Satavahana CHS Ltd, Plot Nos: 392 & 403, Sector 31, VASHI (Post), Navi Mumbai, Maharashtra State, India, PIN – 400 703.
-
-Launched on 7th March 2022
-
-Copyright © 2021, Designed by Webculture Technologies
