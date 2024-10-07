@@ -1,0 +1,19 @@
+[[main]]
+# name = "<img src='/images/WhatsApp-Logo.png' alt='Join Whatsapp Group'>"
+name = "Join WhatsApp Group"
+url = "https://chat.whatsapp.com/BZ098mBwOfeKW0IKFFmHlI"
+weight = 50
+pre = "<img src='/images/WhatsApp-Logo.svg' alt='Join Whatsapp Group'>"
+target = "_blank"
+
+[[main]]
+name = "Holidays"
+url = "/pdf/List-of-Holidays-2024.pdf"
+weight = 50
+target = "_blank"
+
+[[footer]]
+name = "DAE Units"
+url = "/images/Hyperlinks%20to%20DAE%20Units.pdf"
+weight = 50
+target = "_blank"
