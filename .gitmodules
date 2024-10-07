@@ -9,7 +9,7 @@
 	url = https://github.com/filipecarneiro/hugo-bootstrap-theme.git
 [submodule "themes/hugo-bootstrap-theme"]
 	path = themes/hugo-bootstrap-theme
-	url = https://github.com/filipecarneiro/hugo-bootstrap-theme.git
+	url = https://github.com/revanthp/hugo-bootstrap-theme.git
 [submodule "themes/toha"]
 	path = themes/toha
 	url = https://github.com/hugo-toha/toha.git
