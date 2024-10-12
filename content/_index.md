@@ -57,8 +57,12 @@ This web site viz., PARAMANUSENIORSHEALTH.ORG has been created to make pensioner
 Every effort is made to cater specifically to the day to day requirements and quest for vast worldly knowledge matching with the intellectual appetite and calibre of DAE fraternity.
 
 <div class="video-container">
-  {{< youtube fULvjpAPlxA >}}
-  {{< youtube HpPtnDbGBVg >}}
+  <!-- {{< youtube fULvjpAPlxA >}}
+  {{< youtube HpPtnDbGBVg >}} -->
+
+<iframe width="548" height="309" src="https://www.youtube.com/embed/fULvjpAPlxA" title="Retirement Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+
+<iframe width="548" height="309" src="https://www.youtube.com/embed/HpPtnDbGBVg" title="Seated Chair STRETCHES for Seniors/Older Adults/Beginners (10 minutes - to increase flexibility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </div>
 
 
@@ -72,30 +76,30 @@ Every effort is made to cater specifically to the day to day requirements and qu
 
 <h2 class="centered-helpline">Help Line : 112 (Police, Fire, Health & Women Help Line)</h2>
 
-| Department/Service | Contact Number |
-|--------------------|-----------------|
-| Casualty, BARC Hospital | 2558 2112, 2559 8100, 2559 8096, 2559 8108 |
-| BARC Hospital (Board) | 25563140, 2559 8000 |
-| Blood Bank, BARC Hospital | 2559 8361, 2559 8368, 2559 8353 |
-| ICCU, BARC Hospital | 2559 8362 |
-| Blood Test | 2559 8363 |
-| Security, BARC Hospital | 2557 6956, 2559 8200, 2559 8038 |
-| Security. Anushakti Nagar Gate (CSO, DCSEM) | 2558 5073 / 2559 7232 / 2559 6702 |
-| Pharmacy, BARC Hospital | 2559 8390 / 2559 8391 |
-| CHSS Office | 2559 8240, 2559 8241 |
-| Ambulance (Mumbai) | 108, 104 (Health Advice), 102 (Pregnant Women and Neonatal) |
-| Ambulance (BARC Hospital) | 2559 8200 / 2559 8038 / 2559 8000 / 2256 3140 |
-| Ambulance, MGM Hospital, Vashi | 5066 6777 / 8879776366 / 9819460530 |
-| Pension Section | 2559 2712 / 2559 2732 |
-| Pension Admin | 2559 2789, 2559 0803 |
-| Medical Accounts | 2559 3308 / 2559 7041 |
-| Cheque Section | 2559 2796 |
-| Accounts Help Line | 2559 3769 |
-| Railway Enquiry (IVRS) | 139 |
-| BEST Traffic Control | 24137937 |
-| Airport Enquiry (IVRS) | 6685 1010 |
-| National Help Line – Senior Citizens | 14567 |
-| National Consumer Helpline | 1-800-4000 |
+| Department/Service                          | Contact Number                                              |
+| ------------------------------------------- | ----------------------------------------------------------- |
+| Casualty, BARC Hospital                     | 2558 2112, 2559 8100, 2559 8096, 2559 8108                  |
+| BARC Hospital (Board)                       | 25563140, 2559 8000                                         |
+| Blood Bank, BARC Hospital                   | 2559 8361, 2559 8368, 2559 8353                             |
+| ICCU, BARC Hospital                         | 2559 8362                                                   |
+| Blood Test                                  | 2559 8363                                                   |
+| Security, BARC Hospital                     | 2557 6956, 2559 8200, 2559 8038                             |
+| Security. Anushakti Nagar Gate (CSO, DCSEM) | 2558 5073 / 2559 7232 / 2559 6702                           |
+| Pharmacy, BARC Hospital                     | 2559 8390 / 2559 8391                                       |
+| CHSS Office                                 | 2559 8240, 2559 8241                                        |
+| Ambulance (Mumbai)                          | 108, 104 (Health Advice), 102 (Pregnant Women and Neonatal) |
+| Ambulance (BARC Hospital)                   | 2559 8200 / 2559 8038 / 2559 8000 / 2256 3140               |
+| Ambulance, MGM Hospital, Vashi              | 5066 6777 / 8879776366 / 9819460530                         |
+| Pension Section                             | 2559 2712 / 2559 2732                                       |
+| Pension Admin                               | 2559 2789, 2559 0803                                        |
+| Medical Accounts                            | 2559 3308 / 2559 7041                                       |
+| Cheque Section                              | 2559 2796                                                   |
+| Accounts Help Line                          | 2559 3769                                                   |
+| Railway Enquiry (IVRS)                      | 139                                                         |
+| BEST Traffic Control                        | 24137937                                                    |
+| Airport Enquiry (IVRS)                      | 6685 1010                                                   |
+| National Help Line – Senior Citizens        | 14567                                                       |
+| National Consumer Helpline                  | 1-800-4000                                                  |
 
 <div class="deep-sea-blue-banner">
   <h3>Latest Circulars: <a href="under-const.html" style="color: orange;"> A. Jan – Jun  </a>, <a href="under-const.html" style="color: orange;"> B. Jul – Dec</a></h3>
