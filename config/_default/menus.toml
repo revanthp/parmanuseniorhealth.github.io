@@ -8,12 +8,12 @@ target = "_blank"
 
 [[main]]
 name = "Holidays"
-url = "pdf/List-of-Holidays-2024.pdf"
+url = "/pdf/List-of-Holidays-2024.pdf"
 weight = 50
 target = "_blank"
 
 [[footer]]
 name = "DAE Units"
-url = "images/Hyperlinks to DAE Units.pdf"
+url = "/images/Hyperlinks-to-DAE-Units.pdf"
 weight = 50
 target = "_blank"

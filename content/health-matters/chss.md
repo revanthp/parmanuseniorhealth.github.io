@@ -23,7 +23,7 @@ menu:
 [Medical Aids / Procedures for CHSS Cards and Treatments](/images/6.%20%20%20Medical%20Aids,%20%20Procedures%20for%20CHSS%20Cards%20and%20Treatments.pdf)
 
 
-[All CHSS Circulars from DAE](/images/11.%20%20%20All%20CHSS%20Circulars%20from%20DAE%20(1973%20to%202020).pdf)
+[All CHSS Circulars from DAE (1973 to 2020)](https://drive.google.com/file/d/1mk9h5mPAXmPK4c16QWPpIdhLeLvZ7JGN/view?usp=share_link)
 
 [Latest and Important Circulars](/images/12.%20%20%20Latest%20and%20other%20important%20CHSS%20Circuars.pdf)
 
