@@ -1,0 +1,30 @@
+name: "Install Hugo and dependencies"
+description: "Installs Hugo CLI, Dart Sass, and Asciidoctor"
+inputs:
+  hugo-version:
+    description: "Hugo version to install"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Install Hugo CLI
+      run: |
+        HUGO_CACHE_DIR="${{ runner.temp }}/hugo_cache"
+        HUGO_BINARY="$HUGO_CACHE_DIR/hugo"
+        if [ ! -f "$HUGO_BINARY" ]; then
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${{ inputs.hugo-version }}/hugo_extended_${{ inputs.hugo-version }}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          mkdir -p "$HUGO_CACHE_DIR"
+          cp $(which hugo) "$HUGO_BINARY"
+        else
+          sudo cp "$HUGO_BINARY" /usr/local/bin/hugo
+        fi
+      shell: bash
+
+    - name: Install Dart Sass
+      run: sudo snap install dart-sass
+      shell: bash
+
+    - name: Install Asciidoctor
+      run: sudo apt-get install -y asciidoctor
+      shell: bash
