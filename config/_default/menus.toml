@@ -3,17 +3,17 @@
 name = "Join WhatsApp Group"
 url = "https://chat.whatsapp.com/BZ098mBwOfeKW0IKFFmHlI"
 weight = 50
-pre = "<img src='/images/WhatsApp-Logo.svg' alt='Join Whatsapp Group'>"
+pre = "<img src='/images/whatsapp-logo.svg' alt='Join Whatsapp Group'>"
 target = "_blank"
 
 [[main]]
 name = "Holidays"
-url = "/pdf/List-of-Holidays-2024.pdf"
+url = "/pdf/list-of-holidays-2024.pdf"
 weight = 50
 target = "_blank"
 
 [[footer]]
 name = "DAE Units"
-url = "/images/Hyperlinks-to-DAE-Units.pdf"
+url = "/images/hyperlinks-to-dae-units.pdf"
 weight = 50
 target = "_blank"
