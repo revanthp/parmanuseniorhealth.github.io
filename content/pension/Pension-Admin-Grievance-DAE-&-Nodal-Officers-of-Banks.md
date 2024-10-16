@@ -6,6 +6,7 @@ lastmod: 2023-04-14T15:30:00+05:30
 draft: false
 weight: 30
 images: []
+aliases: ['/pension/pension-admin-grievance-dae--nodal-officers-of-banks/pdf/list-of-nodal-officer.pdf']
 menu:
   main:
     parent: "Pensioners' Corner"
