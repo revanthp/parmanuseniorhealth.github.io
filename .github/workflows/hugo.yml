@@ -67,11 +67,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      - name: Remove existing public folder
+      - name: Clean build artifacts
         run: |
-          if [ -d "public" ]; then
-            rm -rf public
-          fi
+          rm -rf public
+          rm -rf resources
+          rm -rf .hugo_build.lock
 
       - name: Build with Hugo
         env:
