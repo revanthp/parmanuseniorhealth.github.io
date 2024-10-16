@@ -12,4 +12,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Different types of pension](/images/pension/3.%20%20%20Different%20Types%20of%20Pension%20Pages%2045-46%20DAE%20HB%20Pen%202018.pdf)
+[Different types of pension](/pdf/pension/3.%20%20%20Different%20Types%20of%20Pension%20Pages%2045-46%20DAE%20HB%20Pen%202018.pdf)

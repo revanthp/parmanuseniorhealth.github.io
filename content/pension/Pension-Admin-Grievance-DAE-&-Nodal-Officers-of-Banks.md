@@ -11,6 +11,6 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[BARC & DAE units (HQ at Mumbai)](/images/pension/14.A.%20%20%20Details%20of%20Contacts%20dealing%20with%20Pension%20Matters%20of%20DAE%20units%20having%20Head%20Quarters%20at%20Mumbai.pdf)
+[BARC & DAE units (HQ at Mumbai)](/pdf/pension/14.A.%20%20%20Details%20of%20Contacts%20dealing%20with%20Pension%20Matters%20of%20DAE%20units%20having%20Head%20Quarters%20at%20Mumbai.pdf)
 
 [List of Nodal Officers - CPPC, All Banks 2021](pdf/list-of-nodal-officer.pdf)

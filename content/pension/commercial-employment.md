@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Commercial employment (PDF)](/images/pension/10.%20%20%20Commercial%20Employment%20Pages%206-8%20DAE%20HB%20Pen%202017%20and%20Order%202021%20along%20with%20Form.pdf)
+[Commercial employment (PDF)](/pdf/pension/10.%20%20%20Commercial%20Employment%20Pages%206-8%20DAE%20HB%20Pen%202017%20and%20Order%202021%20along%20with%20Form.pdf)

@@ -14,24 +14,24 @@ menu:
 
 ### At BARC Hospital and reimbursement 2559 8402
 
-[Download PDF](/images/I.%20&%20J.%20Covid%20-%20Reimbursement%20of%20charges%20towards%20vaccination%20for%20COVID.pdf)
+[Download PDF](/pdf/I.%20&%20J.%20Covid%20-%20Reimbursement%20of%20charges%20towards%20vaccination%20for%20COVID.pdf)
 
 ### FAQs Vaccination
 
-[Download PDF](/images/K.%20Covid%20-%20FAQs%20on%20COVID%20Vaccine.pdf)
+[Download PDF](/pdf/K.%20Covid%20-%20FAQs%20on%20COVID%20Vaccine.pdf)
 
 ### Immunity Guide
 
-[Download PDF](/images/L.%20Covid%20-%20%20Immunity%20guide%20in%20the%20season%20of%20Covid.pdf)
+[Download PDF](/pdf/L.%20Covid%20-%20%20Immunity%20guide%20in%20the%20season%20of%20Covid.pdf)
 
 ### Post Covid Info
 
-[Download PDF](/images/M.%20Covid%20-%20Post%20Covid%20Information%20Booklet%20HN%20Reliance%20Foundation.pdf)
+[Download PDF](/pdf/M.%20Covid%20-%20Post%20Covid%20Information%20Booklet%20HN%20Reliance%20Foundation.pdf)
 
 ### Resources at Hyderabad
 
-[Download PDF](/images/N.%20Covid%20-%20Covid%20Resources%20HYD.pdf)
+[Download PDF](/pdf/N.%20Covid%20-%20Covid%20Resources%20HYD.pdf)
 
 ### Educational Content- COVID
 
-[Download PDF](/images/O.%20Covid%20-%20%20Covid%2019%20%20Eucational%20Content%20Combined%20File.pdf)
+[Download PDF](/pdf/O.%20Covid%20-%20%20Covid%2019%20%20Eucational%20Content%20Combined%20File.pdf)
