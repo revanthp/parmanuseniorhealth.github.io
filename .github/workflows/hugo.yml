@@ -67,6 +67,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
+      - name: Remove existing public folder
+        run: |
+          if [ -d "public" ]; then
+            rm -rf public
+          fi
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: /tmp/hugo_cache
