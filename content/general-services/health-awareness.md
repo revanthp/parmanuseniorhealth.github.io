@@ -7,6 +7,7 @@ draft: false
 weight: 30
 type: "page"
 layout: "single"
+aliases: ['/health-matters/chss/Health-Awareness.html']
 menu:
   main:
     parent: "General Information"
