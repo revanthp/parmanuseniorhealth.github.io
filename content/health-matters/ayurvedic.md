@@ -11,7 +11,7 @@ menu:
 ---
 
 
-[Procedures](/images/7.%20%20%20Procedure%20for%20Treatment%20under%20Ayurveda%20and%20Homeopathy%20for%20Retired%20employees.pdf)
+[Procedures](/pdf/7.%20%20%20Procedure%20for%20Treatment%20under%20Ayurveda%20and%20Homeopathy%20for%20Retired%20employees.pdf)
 
 
-[List of Doctors](/images/8.%20%20%20List%20of%20Authorised%20Ayurveda%20and%20Homeopathy%20Doctors%20vaild%20till%20Dec%202021.pdf)
+[List of Doctors](/pdf/8.%20%20%20List%20of%20Authorised%20Ayurveda%20and%20Homeopathy%20Doctors%20vaild%20till%20Dec%202021.pdf)

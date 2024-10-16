@@ -13,9 +13,9 @@ menu:
 
 [Download Introduction and Filing of ITR PDF](/pdf/introduction-and-filing-of-itr.pdf)
 
-[Download Comprehensive FAQs PDF](/images/general/29.%20Comprehensive%20FAQs.pdf)
+[Download Comprehensive FAQs PDF](/pdf/general/29.%20Comprehensive%20FAQs.pdf)
 
-[Download Links to Income Tax Returns Multimedia and Services PDF](/images/general/30.%20Links%20to%20Income%20Tax%20Returns%20Multimedia%20and%20Services.pdf)
+[Download Links to Income Tax Returns Multimedia and Services PDF](/pdf/general/30.%20Links%20to%20Income%20Tax%20Returns%20Multimedia%20and%20Services.pdf)
 
 [Download ITR 1 PDF](/pdf/itr-1.pdf)
 

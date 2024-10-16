@@ -12,4 +12,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download Bhavishya PDF](/images/pension/17.%20%20%20Bhavishya.pdf)
+[Download Bhavishya PDF](/pdf/pension/17.%20%20%20Bhavishya.pdf)

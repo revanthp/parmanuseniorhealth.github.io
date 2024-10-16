@@ -11,4 +11,4 @@ menu:
   main:
     parent: "General Information"
 ---
-[Download Courier Services PDF](/images/general/23.%20Courier%20Services.pdf)
+[Download Courier Services PDF](/pdf/general/23.%20Courier%20Services.pdf)

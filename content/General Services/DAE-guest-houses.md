@@ -12,4 +12,4 @@ menu:
     parent: "General Information"
 ---
 
-[Download DAE Guest Houses and Tariff PDF](/images/22.%20%20DAE%20Guest%20Houses%20and%20Tariff.pdf)
+[Download DAE Guest Houses and Tariff PDF](/pdf/22.%20%20DAE%20Guest%20Houses%20and%20Tariff.pdf)

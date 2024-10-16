@@ -1,5 +1,5 @@
 [[main]]
-# name = "<img src='/images/WhatsApp-Logo.png' alt='Join Whatsapp Group'>"
+# name = "<img src='/pdf/WhatsApp-Logo.png' alt='Join Whatsapp Group'>"
 name = "Join WhatsApp Group"
 url = "https://chat.whatsapp.com/BZ098mBwOfeKW0IKFFmHlI"
 weight = 50
@@ -14,6 +14,6 @@ target = "_blank"
 
 [[footer]]
 name = "DAE Units"
-url = "/images/hyperlinks-to-dae-units.pdf"
+url = "/pdf/hyperlinks-to-dae-units.pdf"
 weight = 50
 target = "_blank"
