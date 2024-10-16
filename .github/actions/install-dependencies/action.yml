@@ -21,10 +21,10 @@ runs:
         fi
       shell: bash
 
-    - name: Install Dart Sass
-      run: sudo snap install dart-sass
-      shell: bash
+    # - name: Install Dart Sass
+    #   run: sudo snap install dart-sass
+    #   shell: bash
 
-    - name: Install Asciidoctor
-      run: sudo apt-get install -y asciidoctor
-      shell: bash
+    # - name: Install Asciidoctor
+    #   run: sudo apt-get install -y asciidoctor
+    #   shell: bash
