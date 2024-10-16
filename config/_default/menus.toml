@@ -1,5 +1,4 @@
 [[main]]
-# name = "<img src='/pdf/WhatsApp-Logo.png' alt='Join Whatsapp Group'>"
 name = "Join WhatsApp Group"
 url = "https://chat.whatsapp.com/BZ098mBwOfeKW0IKFFmHlI"
 weight = 50

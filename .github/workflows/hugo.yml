@@ -84,6 +84,11 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: List public directory contents
+        run: |
+          echo "Contents of public directory:"
+          ls -R public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
