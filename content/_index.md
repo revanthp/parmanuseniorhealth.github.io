@@ -102,5 +102,8 @@ Every effort is made to cater specifically to the day to day requirements and qu
 | National Consumer Helpline                  | 1-800-4000                                                  |
 
 <div class="deep-sea-blue-banner">
-  <h3>Latest Circulars: <a style="color: orange;"> A. Jan – Jun  </a>, <a href="under-const.html" style="color: orange;"> B. Jul – Dec</a></h3>
+  <h3>Latest Circulars: 
+    <a href="/404.html" style="color: orange;"> A. Jan – Jun  </a>, 
+    <a href="/404.html" style="color: orange;"> B. Jul – Dec</a>
+  </h3>
 </div>
