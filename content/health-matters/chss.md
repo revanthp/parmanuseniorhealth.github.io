@@ -4,45 +4,37 @@ description: ""
 date: 2023-04-14T15:30:00+05:30
 lastmod: 2023-04-14T15:30:00+05:30
 draft: false
-weight: 30
+weight: 10
 menu:
   main:
     parent: CHSS & Health Matters
 ---
 
-[All About CHSS](/pdf/1.%20%20%20ALL%20ABOUT%20CHSS%20with%20slides%2036%20and%2037%20corrected.pdf)
+[All About CHSS](/files/all-about-chss-files-with-slides-36-and-37-corrected.pdf)
 
-[Organisational Structure](/pdf/2.%20%20%20Organisational%20Structure%20Revised.pdf)
+[Organisational Structure](/files/organisational-structure-revised.pdf)
 
-[OPDs, BARC Hospital](/pdf/I.%20%20%20OPDs%20BARC%20Hospital%20Revised.pdf)
+[OPDs, BARC Hospital](/files/opds-barc-hospital-revised.pdf)
 
-[Dispensaries](/pdf/J.%20%20%20Dispensaries%20Revised.pdf)
+[Dispensaries](/files/dispensaries-revised.pdf)
 
-[CHSS Rules and Regulations (BARC)](/pdf/5.%20%20%20CHSS%20Rules%20and%20Regulations%20(BARC)%202014.pdf)
+[CHSS Rules and Regulations (BARC)](/files/chss-rules-and-regulations-barc-2014.pdf)
 
-[Medical Aids / Procedures for CHSS Cards and Treatments](/pdf/6.%20%20%20Medical%20Aids,%20%20Procedures%20for%20CHSS%20Cards%20and%20Treatments.pdf)
+[Medical Aids / Procedures for CHSS Cards and Treatments](/files/medical-aids-procedures-for-chss-cards-and-treatments.pdf)
 
 
 [All CHSS Circulars from DAE (1973 to 2020)](https://drive.google.com/file/d/1mk9h5mPAXmPK4c16QWPpIdhLeLvZ7JGN/view?usp=share_link)
 
-[Latest and Important Circulars](/pdf/12.%20%20%20Latest%20and%20other%20important%20CHSS%20Circuars.pdf)
+[Latest and Important Circulars](/files/latest-and-other-important-chss-circulars.pdf)
 
-[CHSS Review Committee 2017](/pdf/13.%20%20%20CHSS%20Review%20Committee%202017.pdf)
+[CHSS Review Committee 2017](/files/chss-review-committee-2017.pdf)
 
-[CHSS Centres in DAE](/pdf/14.%20%20%20CHSS%20Centres%20in%20DAE.pdf)
+[CHSS Centres in DAE](/files/chss-centres-in-dae.pdf)
 
-[Outstation Treatment Procedures](/pdf/Outstation,%20Emergency%20and%20Non-Allopathic%20Treatment%20Procedures-New%20file%20under%20CHSS.pdf)
+[Outstation Treatment Procedures](/files/outstation-emergency-and-non-allopathic-treatment-procedures-new-file-under-chss.pdf)
 
-[Ambulance services](/pdf/22.%20%20%20Ambulance%20Services.pdf)
+[Ambulance services](/files/ambulance-services.pdf)
 
-[Free Medical Care (Agencies)](/pdf/23.%20%20%20Free%20Medical%20Care%20through%20Trusts,%20Govt%20bodies%20and%20Institutions.pdf)
+[Free Medical Care (Agencies)](/files/free-medical-care-through-trusts-govt-bodies-and-institutions.pdf)
 
 [eSanjeevani (Free OPD GOI)](https://www.esanjeevaniopd.in/)
-
-[Home Visits & Man Power (All Categories)](miscellaneous.html)
-
-[Other Speciality Medical Institutions](under-const.html)
-
-[Health Tips and Educational](Health-Awareness.html)
-
-[FAQs](under-const.html)

@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download PDF](/pdf/pension/9.%20%20%20%20Retention%20of%20Accommodation%20Page%2052%20DAE%20HB%20Pen%202017.pdf)
+[Download PDF](/files/pension/retention-of-accommodation-page-52-dae-hb-pen-2017.pdf)

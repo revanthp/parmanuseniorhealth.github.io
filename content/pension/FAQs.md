@@ -11,8 +11,8 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download SBI FAQ PDF](/pdf/pension/20.%20A.%20%20%20FAQs%20SBI%20Pension%20Related.pdf)
+[Download SBI FAQ PDF](/files/pension/sbi-pension-related-faqs.pdf)
 
-[Download Pension Payment FAQ PDF](/pdf/pension/20.%20B.%20%20%20FAQs%20on%20Pension%20Payment.pdf)
+[Download Pension Payment FAQ PDF](/files/pension/pension-payment-faqs.pdf)
 
-[Download RBI on Pension Payment PDF](/pdf/pension/20.C.%20%20%20RBI%20on%20Pension%20Payments%20by%20Agency%20Banks.pdf)
+[Download RBI on Pension Payment PDF](/files/pension/rbi-on-pension-payments-by-agency-banks.pdf)

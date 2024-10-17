@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download PDF: Transfer of Pension A/C & NRI Pension A/C](/pdf/pension/12.%20%20%20Transfer%20of%20Pension%20AC%20&%20NRI%20Pension%20AC.pdf)
+[Download PDF: Transfer of Pension A/C & NRI Pension A/C](/files/pension/transfer-of-pension-and-nri-pension-account.pdf)

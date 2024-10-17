@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download: Pension Procedure without Pension Papers (PDF)](/pdf/9A.%20%20%20Pension%20Procedure%20without%20Pension%20Papers.pdf)
+[Download: Pension Procedure without Pension Papers (PDF)](/files/pension-procedure-without-pension-papers.pdf)

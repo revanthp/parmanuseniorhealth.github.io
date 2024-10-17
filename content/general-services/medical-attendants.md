@@ -4,7 +4,7 @@ description: ""
 date: 2023-04-14T15:30:00+05:30
 lastmod: 2023-04-14T15:30:00+05:30
 draft: false
-weight: 30
+weight: 90
 type: "page"
 layout: "single"
 menu:
@@ -12,4 +12,4 @@ menu:
     parent: "General Information"
 ---
 
-[Download Medical Attendants PDF](/pdf/get-well-soon.pdf)
+[Download Medical Attendants PDF](/files/get-well-soon.pdf)

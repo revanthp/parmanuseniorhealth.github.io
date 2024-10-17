@@ -13,4 +13,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Commutation]('pdf/pension/4.   Commutation Page 32-35 DAE HB Pen 2017 along with Forms')
+[Commutation](/files/pension/commutation-page-32-35-dae-hb-pen-2017-along-with-forms.pdf)

@@ -4,25 +4,25 @@ description: ""
 date: 2023-04-14T15:30:00+05:30
 lastmod: 2023-04-14T15:30:00+05:30
 draft: false
-weight: 30
+weight: 50
 images: []
 menu:
   main:
     parent: "General Information"
 ---
 
-[Download Introduction and Filing of ITR PDF](/pdf/introduction-and-filing-of-itr.pdf)
+[Download Introduction and Filing of ITR PDF](/files/introduction-and-filing-of-itr.pdf)
 
-[Download Comprehensive FAQs PDF](/pdf/general/29.%20Comprehensive%20FAQs.pdf)
+[Download Comprehensive FAQs PDF](/files/general/comprehensive-faqs.pdf)
 
-[Download Links to Income Tax Returns Multimedia and Services PDF](/pdf/general/30.%20Links%20to%20Income%20Tax%20Returns%20Multimedia%20and%20Services.pdf)
+[Download Links to Income Tax Returns Multimedia and Services PDF](/files/general/links-to-income-tax-returns-multimedia-and-services.pdf)
 
-[Download ITR 1 PDF](/pdf/itr-1.pdf)
+[Download ITR 1 PDF](/files/itr-1.pdf)
 
-[Download ITR 2 PDF](/pdf/itr-2.pdf)
+[Download ITR 2 PDF](/files/itr-2.pdf)
 
-[Download ITR 3 PDF](/pdf/itr-3.pdf)
+[Download ITR 3 PDF](/files/itr-3.pdf)
 
-[Download ITR 4 PDF](/pdf/itr-4.pdf)
+[Download ITR 4 PDF](/files/itr-4.pdf)
 
-[Download ITR Acknowledgement 2023-24 PDF](/pdf/ITR%20Acknowledgement%202023%20-%2024.pdf)
+[Download ITR Acknowledgement 2023-24 PDF](/files/itr-acknowledgement-2023-2024.pdf)
