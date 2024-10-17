@@ -7,6 +7,7 @@ draft: false
 tags: ["pension"]
 type: "page"
 layout: "single"
+weight: 170
 menu:
   main:
     parent: "Pensioners' Corner"
