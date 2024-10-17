@@ -10,7 +10,7 @@ menu:
   main:
     parent: "Pensioners' Corner"
 ---
-# Gratuity
+## Gratuity
 
 [Retirement Gratuity](/files/pension/retirement-gratuity-page-6-dae-hb-pen-2018.pdf)
 
@@ -20,26 +20,26 @@ menu:
 
 [Residuary Gratuity](/files/pension/residuary-gratuity-page-35-dae-hb-pen-2018-along-with-form.pdf)
 
-# Leave Encashment
+## Leave Encashment
 
 [Leave Encashment](/files/pension/leave-encashment-page-43-dae-hb-pen-2017.pdf)
 
-# GPF Personal Share
+## GPF Personal Share
 
 [GPF Personal Share](/files/pension/gpf-personal-share-page-10-dae-hb-pen-2018.pdf)
 
-# Group Insurance & Deposit Linked Insurance
+## Group Insurance & Deposit Linked Insurance
 
 [Group Insurance & Deposit Linked Insurance](/files/pension/group-and-deposit-linked-insurance-pages-33-34-dae-hb-pen-2018.pdf)
 
-# TA on retirement/Death
+## TA on retirement/Death
 
 [TA on retirement/Death](/files/ta-on-death-and-retirement.pdf)
 
-# CHSS / Fixed Medical Allowance
+## CHSS / Fixed Medical Allowance
 
 [CHSS / Fixed Medical Allowance](/files/pension/chss-or-fixed-medical-allowance-pages-10-12-and-34-dae-hb-pen-2018.pdf)
 
-# Model Calculations
+## Model Calculations
 
 [Model Calculations](/files/pension/model-pension-calculations-and-pension-matters-to-remember.pdf)
