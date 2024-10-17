@@ -13,22 +13,22 @@ menu:
 ---
 
 
-[Download Fine Arts Society Brochure](/pdf/general/13.%20Chembur%20Fine%20Arts%20Society%20Brochure.pdf)
+[Download Fine Arts Society Brochure](/files/general/chembur-fine-arts-society-brochure.pdf)
 
 
-[Download Films Division Archives - Pan India](/pdf/general/14.%20Films%20Division%20Archives%20-%20Pan%20India.pdf)
+[Download Films Division Archives - Pan India](/files/general/films-division-archives-pan-india.pdf)
 
 
-[Download Mehboob Studios Information](/pdf/general/15.%20Mehboob%20Studios.pdf)
+[Download Mehboob Studios Information](/files/general/mehboob-studios.pdf)
 
 
-[Download NCPA Information](/pdf/general/16.%20NCPA.pdf)
+[Download NCPA Information](/files/general/ncpa.pdf)
 
 
-[Download Shanmukhananda Fine Arts Information](/pdf/general/17.%20Shanmukhananda%20Fine%20Arts.pdf)
+[Download Shanmukhananda Fine Arts Information](/files/general/shanmukhananda-fine-arts.pdf)
 
 
-[Download Vishnudas Bhave Auditorium Information](/pdf/general/18.%20Vishnudas%20Bhave%20Auditorium.pdf)
+[Download Vishnudas Bhave Auditorium Information](/files/general/vishnudas-bhave-auditorium.pdf)
 
 
-[Download World Trade Centre Information](/pdf/general/19.%20World%20Trade%20Centre.pdf)
+[Download World Trade Centre Information](/files/general/world-trade-centre.pdf)

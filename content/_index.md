@@ -66,13 +66,13 @@ Every effort is made to cater specifically to the day to day requirements and qu
 </div>
 
 
-<a href="https://paramanuseniorshealth.org/pdf/Links%20for%20Indian%20Classical%20Music.pdf" class="music-link">🔘Links for Indian Classical Music</a>
+<a href="/files/links-for-indian-classical-music.pdf" class="music-link">🔘Links for Indian Classical Music</a>
 
 <h4 style="color: orange;">Frequently Required Information</h4>
 
-#### [OPDs & Dispensaries](/pdf/Dispensaries%20and%20OPDs%20For%20seperate%20Tab%20_%20Revised%20File-1.pdf)
+#### [OPDs & Dispensaries](/files/dispensaries-and-opds-revised.pdf)
 
-#### [Intimation of Death & Organ Donation](/pdf/Intimation%20About%20Death%20and%20Organ%20Donation.pdf)
+#### [Intimation of Death & Organ Donation](/files/intimation-about-death-and-organ-donation.pdf)
 
 <h2 class="centered-helpline">Help Line : 112 (Police, Fire, Health & Women Help Line)</h2>
 
@@ -102,5 +102,5 @@ Every effort is made to cater specifically to the day to day requirements and qu
 | National Consumer Helpline                  | 1-800-4000                                                  |
 
 <div class="deep-sea-blue-banner">
-  <h3>Latest Circulars: <a href="under-const.html" style="color: orange;"> A. Jan – Jun  </a>, <a href="under-const.html" style="color: orange;"> B. Jul – Dec</a></h3>
+  <h3>Latest Circulars: <a style="color: orange;"> A. Jan – Jun  </a>, <a href="under-const.html" style="color: orange;"> B. Jul – Dec</a></h3>
 </div>

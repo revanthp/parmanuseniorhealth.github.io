@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download FAQs Sankalp PDF](/pdf/pension/18.%20%20%20FAQs%20Sankalp.pdf)
+[Download FAQs Sankalp PDF](/files/pension/sankalp-faqs.pdf)

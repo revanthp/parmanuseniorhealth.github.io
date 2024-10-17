@@ -11,6 +11,6 @@ menu:
     parent: "CHSS & Health Matters"
 ---
 
-[Tata Memorial Hospital](https://tmc.gov.in/tmh/index.php/en/)
+[Tata Memorial Hospital](https://tmc.gov.in)
 
 [Advanced Centre for Treatment, Research & Education in Cancer](https://actrec.gov.in/)

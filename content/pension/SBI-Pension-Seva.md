@@ -10,4 +10,4 @@ menu:
   main:
     parent: "Pensioners' Corner"
 ---
-[SBI Pension Seva]()
+[SBI Pension Seva](/files/pension/sbi-pension-seva-pages-58-59-dae-hb-pen-2018.pdf)

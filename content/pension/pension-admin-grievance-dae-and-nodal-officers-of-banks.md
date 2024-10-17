@@ -6,12 +6,12 @@ lastmod: 2023-04-14T15:30:00+05:30
 draft: false
 weight: 140
 images: []
-aliases: ['/pension/pension-admin-grievance-dae--nodal-officers-of-banks/pdf/list-of-nodal-officer.pdf']
+aliases: ['/pension/pension-admin-grievance-dae--nodal-officers-of-banks/files/list-of-nodal-officer.pdf']
 menu:
   main:
     parent: "Pensioners' Corner"
 ---
 
-[BARC & DAE units (HQ at Mumbai)](/pdf/pension/14.A.%20%20%20Details%20of%20Contacts%20dealing%20with%20Pension%20Matters%20of%20DAE%20units%20having%20Head%20Quarters%20at%20Mumbai.pdf)
+[BARC & DAE units (HQ at Mumbai)](/files/pension/details-of-contacts-dealing-with-pension-matters-of-dae-units-having-head-quarters-at-mumbai.pdf)
 
-[List of Nodal Officers - CPPC, All Banks 2021](pdf/list-of-nodal-officer.pdf)
+[List of Nodal Officers - CPPC, All Banks 2021](/files/list-of-nodal-officer.pdf)

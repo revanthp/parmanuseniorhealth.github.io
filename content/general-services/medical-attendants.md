@@ -12,4 +12,4 @@ menu:
     parent: "General Information"
 ---
 
-[Download Medical Attendants PDF](/pdf/get-well-soon.pdf)
+[Download Medical Attendants PDF](/files/get-well-soon.pdf)

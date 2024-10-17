@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download PDF](/pdf/pension/11.%20%20%20Investment%20options%20for%20Pensioners%20Pages%2077-82%20DAE%20HB%20Pen%202018.pdf)
+[Download PDF](/files/pension/investment-options-for-pensioners-page-77-82-dae-hb-pen-2018.pdf)

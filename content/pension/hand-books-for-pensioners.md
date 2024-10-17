@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Download Hand Books for pensioners PDF](/pdf/22.%20%20%20Hand%20Books%20for%20Pensioners.pdf)
+[Download Hand Books for pensioners PDF](/files/hand-books-for-pensioners.pdf)

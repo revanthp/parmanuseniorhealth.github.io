@@ -11,6 +11,6 @@ menu:
   main:
     parent: "General Information"
 ---
-[Download New Community Centre](/pdf/general/20.%20New%20Community%20Centre,%20A.%20Nagar.pdf)
+[Download New Community Centre](/files/general/new-community-centre-anushaktinagar.pdf)
 
-[Booking of Facilities](/pdf/general/21.%20Booking%20of%20Community%20Centres%20and%20Other%20facilities.pdf)
+[Booking of Facilities](/files/general/booking-of-community-centres-and-other-facilities.pdf)
