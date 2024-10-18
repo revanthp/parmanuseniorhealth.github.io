@@ -17,7 +17,7 @@ menu:
 
 [Min of Personnel, Public Grievance & Pensions](https://pensionersportal.gov.in/)
 
-[DAE Pension Portal](https://dae.gov.in/)
+[DAE Pension Portal](https://dae.gov.in/accounts/pensioners-portal/)
 
 [DOPT](https://dopt.gov.in/)
 
