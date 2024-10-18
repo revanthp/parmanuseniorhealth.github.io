@@ -17,7 +17,7 @@ menu:
 
 [Min of Personnel, Public Grievance & Pensions](https://pensionersportal.gov.in/)
 
-[DAE Pension Portal](https://dae.gov.in/node/839)
+[DAE Pension Portal](https://dae.gov.in/)
 
 [DOPT](https://dopt.gov.in/)
 
@@ -31,8 +31,8 @@ menu:
 
 [Scientific Assistants' Association of BARC](https://saabmumbai.wordpress.com/)
 
-[Central Administrative Tribunal, Mumbai](http://cgatnew.gov.in/catweb/mumbainew/mumbainew.php)
+[Central Administrative Tribunal, Mumbai](http://cgat.gov.in)
 
 [High Court, Mumbai](https://bombayhighcourt.nic.in/index.php)
 
-[Supreme Court of India](https://main.sci.gov.in/)
+[Supreme Court of India](https://sci.gov.in/)
