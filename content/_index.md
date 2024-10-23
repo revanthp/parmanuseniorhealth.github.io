@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "Paramanu Senior's Health"
+description: "Paramanu Seniors Health"
 summary: "Quick guide for Department of Atomic Energy (DAE) beneficiaries."
 type: "page"
 layout: "single"

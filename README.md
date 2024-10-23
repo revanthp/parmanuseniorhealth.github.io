@@ -1,4 +1,4 @@
-# Parmanu Senior's Health
+# Parmanu Seniors Health
 
 This repo powers parmanuseniorshealth.org website. 
 
