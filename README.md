@@ -1,6 +1,6 @@
-# Parmanu Senior's Health
+# Paramanu Senior's Health
 
-This repo powers parmanuseniorshealth.org website. 
+This repo powers paramanuseniorshealth.org website. 
 
 Domain is owned and operated by Dr. Venu Babu Pentyala.
 
