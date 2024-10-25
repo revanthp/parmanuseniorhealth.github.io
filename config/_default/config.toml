@@ -1,6 +1,6 @@
 baseURL = 'https://paramanuseniorshealth.org/'
 canonifyURLs = true
-title = "" # Leave this empty to not have the title overlay the menu
+title = ""                                     # Leave this empty to not have the title overlay the menu
 author = "Dr. Venu Babu Pentyala"
 copyright = "Launched On 7th March 2022"
 
@@ -17,7 +17,7 @@ enableRobotsTXT = true
 #enableGitInfo = true
 enableEmoji = true
 #sectionPagesMenu = "main"
-#googleAnalytics = "UA-1511XXXX-X"
+googleAnalytics = "G-BGSPDZEPPY"
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
