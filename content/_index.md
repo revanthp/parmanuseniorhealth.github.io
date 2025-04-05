@@ -49,83 +49,31 @@ images: ["images/logo.jpeg"]
   .deep-sea-blue-banner a:hover {
     text-decoration: underline;
   }
-  .youtube-container {
-     position: relative;
-     width: 100%;
-     aspect-ratio: 16/9;
-     cursor: pointer;
-   }
 
-   .youtube-thumbnail {
-     position: relative;
-     width: 100%;
-     height: 100%;
-     overflow: hidden;
-     background-color: #000;
-   }
-
-   .youtube-thumbnail img {
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-     transition: opacity 0.3s ease;
-   }
-
-   .youtube-thumbnail:hover img {
-     opacity: 0.8;
-   }
-
-   .play-button {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 70px;
-     height: 50px;
-     background-color: rgba(0, 0, 0, 0.7);
-     border-radius: 10px;
-   }
-
-   .play-button:before {
-     content: '';
-     position: absolute;
-     top: 50%;
-     left: 55%;
-     transform: translate(-50%, -50%);
-     border-style: solid;
-     border-width: 15px 0 15px 26px;
-     border-color: transparent transparent transparent white;
-   }
 </style>
 
 This web site viz., PARAMANUSENIORSHEALTH.ORG has been created to make pensioners and the family of CHSS (Contributory Health Services Scheme) beneficiaries of DAE (Department of Atomic Energy) feel part of a larger network they were otherwise used to during their 3 to 4 decades of active and productive lives they led. The site is designed to be the ultimate and a single stop for all the information needs of senior citizens in DAE. Further, a good amount of information is compiled which even the working employees find it highly useful, thus enabling smooth transition for them from active service to retired life.
 
 Every effort is made to cater specifically to the day to day requirements and quest for vast worldly knowledge matching with the intellectual appetite and calibre of DAE fraternity.
 
-<!-- <div class="video-container">
-  <!-- {{< youtube fULvjpAPlxA >}}
-  {{< youtube HpPtnDbGBVg >}} -->
-
-<!-- <iframe width="548" height="309" src="https://www.youtube.com/embed/fULvjpAPlxA" title="Retirement Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe> -->
-
-<!-- <iframe width="548" height="309" src="https://www.youtube.com/embed/HpPtnDbGBVg" title="Seated Chair STRETCHES for Seniors/Older Adults/Beginners (10 minutes - to increase flexibility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe> -->
-<!-- </div> -->
-
 <div class="video-container">
-  <div class="youtube-container" data-id="fULvjpAPlxA">
-    <div class="youtube-thumbnail">
-      <img src="https://img.youtube.com/vi/fULvjpAPlxA/maxresdefault.jpg" alt="Retirement Song">
-      <div class="play-button"></div>
-    </div>
-  </div>
 
-  <div class="youtube-container" data-id="HpPtnDbGBVg">
-    <div class="youtube-thumbnail">
-      <img src="https://img.youtube.com/vi/HpPtnDbGBVg/maxresdefault.jpg" alt="Seated Chair STRETCHES for Seniors/Older Adults/Beginners">
-      <div class="play-button"></div>
-    </div>
-  </div>
+<iframe width="548" height="309" src="https://www.youtube.com/embed/fULvjpAPlxA" title="Retirement Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+
+<iframe width="548" height="309" src="https://www.youtube.com/embed/HpPtnDbGBVg" title="Seated Chair STRETCHES for Seniors/Older Adults/Beginners (10 minutes - to increase flexibility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </div>
+
+<!-- <div class="video-container">
+  <a href="https://www.youtube.com/watch?v=fULvjpAPlxA" class="youtube-lite" data-id="fULvjpAPlxA">
+    <img src="https://img.youtube.com/vi/fULvjpAPlxA/maxresdefault.jpg" alt="Retirement Song">
+    <div class="play-button"></div>
+  </a>
+
+  <a href="https://www.youtube.com/watch?v=HpPtnDbGBVg" class="youtube-lite" data-id="HpPtnDbGBVg">
+    <img src="https://img.youtube.com/vi/HpPtnDbGBVg/maxresdefault.jpg" alt="Seated Chair STRETCHES for Seniors/Older Adults/Beginners">
+    <div class="play-button"></div>
+  </a>
+</div> -->
 
 <a href="/files/links-for-indian-classical-music.pdf" class="music-link">🔘Links for Indian Classical Music</a>
 
@@ -169,28 +117,32 @@ Every effort is made to cater specifically to the day to day requirements and qu
   </h3>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const youtubeContainers = document.querySelectorAll('.youtube-container');
+<!-- <script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all the lite youtube elements
+  const youtubeLinks = document.querySelectorAll('.youtube-lite');
 
-    youtubeContainers.forEach(container => {
-      container.addEventListener('click', function() {
-        const videoId = this.getAttribute('data-id');
+  // Add click event listener to each element
+  youtubeLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
 
-        // Create iframe element directly
-        const iframe = document.createElement('iframe');
-        iframe.width = '100%';
-        iframe.height = '100%';
-        iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
-        iframe.title = 'YouTube video player';
-        iframe.frameBorder = '0';
-        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-        iframe.allowFullscreen = true;
+      // Get the video ID
+      const videoId = this.getAttribute('data-id');
+      if (!videoId) return;
 
-        // Clear the container and append the iframe
-        this.innerHTML = '';
-        this.appendChild(iframe);
-      });
+      // Create iframe element
+      const iframe = document.createElement('iframe');
+      iframe.setAttribute('width', '100%');
+      iframe.setAttribute('height', '100%');
+      iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0');
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+
+      // Replace the link with the iframe
+      this.parentNode.replaceChild(iframe, this);
     });
   });
-</script>
+});
+</script> -->
