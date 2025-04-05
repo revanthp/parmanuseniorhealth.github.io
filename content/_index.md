@@ -176,18 +176,18 @@ Every effort is made to cater specifically to the day to day requirements and qu
     youtubeContainers.forEach(container => {
       container.addEventListener('click', function() {
         const videoId = this.getAttribute('data-id');
+
+        // Create iframe element directly
         const iframe = document.createElement('iframe');
+        iframe.width = '100%';
+        iframe.height = '100%';
+        iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+        iframe.title = 'YouTube video player';
+        iframe.frameBorder = '0';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.allowFullscreen = true;
 
-        iframe.setAttribute('width', '100%');
-        iframe.setAttribute('height', '100%');
-        iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
-        iframe.setAttribute('title', 'YouTube video player');
-        iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-        iframe.setAttribute('allowfullscreen', '');
-        iframe.setAttribute('loading', 'lazy');
-
-        // Replace the thumbnail with the iframe
+        // Clear the container and append the iframe
         this.innerHTML = '';
         this.appendChild(iframe);
       });
