@@ -8,7 +8,7 @@ backend:
   branch: main
   base_url: https://paramanuseniorshealth.org
   auth_type: implicit
-  auth_endpoint: auth
+  auth_endpoint: oauth
 media_folder: "static"
 public_folder: "public"
 
