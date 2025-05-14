@@ -6,7 +6,8 @@ backend:
   name: github
   repo: revanthp/parmanuseniorhealth.github.io
   branch: main
-  base_url: https://paramanuseniorshealth.org
+  base_url: https://decap.paramanuseniorshealth.org
+  site_domain: paramanuseniorshealth.org
   auth_type: implicit
   auth_endpoint: oauth
 media_folder: "static"
