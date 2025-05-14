@@ -1,9 +1,9 @@
-local_backend: true
-  # url: http://localhost:8081/api/v1
-  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
-  # allowed_hosts: ["192.168.0.1"]
+# local_backend: true
+# url: http://localhost:8081/api/v1
+# when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+# allowed_hosts: ["192.168.0.1"]
 backend:
-  name: git-gateway # github
+  name: github
   repo: revanthp/parmanuseniorhealth.github.io
   branch: main
   base_url: https://paramanuseniorshealth.org/admin/
@@ -16,7 +16,7 @@ collections:
     label: "General-Services"
     folder: "content/general-services"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { name: "title", label: "Title" }
       - { name: "date", label: "Date", widget: "datetime" }
@@ -25,7 +25,7 @@ collections:
     label: "Health-Matters"
     folder: "content/health-matters"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { name: "title", label: "Title" }
       - { name: "date", label: "Date", widget: "datetime" }
@@ -34,7 +34,7 @@ collections:
     label: "pension"
     folder: "content/pension"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { name: "title", label: "Title" }
       - { name: "date", label: "Date", widget: "datetime" }
@@ -43,9 +43,8 @@ collections:
     label: "Tel-Numbers"
     folder: "content/tel-numbers"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { name: "title", label: "Title" }
       - { name: "date", label: "Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
-
