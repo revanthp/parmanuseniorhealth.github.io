@@ -1,7 +1,3 @@
-# local_backend: true
-# url: http://localhost:8081/api/v1
-# when accessing the local site from a host other than 'localhost' or '127.0.0.1'
-# allowed_hosts: ["192.168.0.1"]
 backend:
   name: github
   repo: revanthp/parmanuseniorhealth.github.io
@@ -11,44 +7,76 @@ backend:
   auth_type: implicit
   auth_endpoint: auth
   squash_merges: true
-media_folder: "static"
+
+media_folder: "static/files"
 public_folder: "public"
 publish_mode: editorial_workflow
+logo_url: https://paramanuseniorshealth.org/images/logo.jpeg
+search: false
+show_preview_links: false
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+# ─── DRY blocks ───────────────────────────────────────
+collection_defaults: &collection_defaults
+  create: true
+  delete: false
+  slug: "{{year}}-{{slug}}"
+  identifier_field: title
+  fields: &common_fields
+    - { name: "title", label: "Title" }
+    - { name: "date", label: "Publish Date", widget: "datetime", default: "{{now}}", hidden: true }
+    - { name: "description", label: "Description", widget: "text", required: false }
+    - { name: "tags", label: "Tags", widget: "list", required: false }
+    # - { name: "featured_image",  label: "Featured Image",
+    #     widget: "image",         required: false }
+    - { name: "body", label: "Body", widget: "markdown" }
+    - {
+        name: "upload",
+        label: "Attachments",
+        widget: "file",
+        multiple: true,
+        folder: "/static/files/",
+        required: false,
+      }
+
+# ─── Collections ──────────────────────────────────────
 collections:
-  - name: "general-services"
-    label: "General-Services"
+  # — Single-page “About” section —
+  - name: "pages"
+    label: "Pages"
+    files:
+      - <<: *collection_defaults # pull in defaults
+        file: "content/about.md"
+        name: "about"
+        label: "About Page"
+        preview_path: "/about"
+        fields: *common_fields # override: keep only fields
+
+  # — Folder collections —
+  - <<: *collection_defaults
+    name: "general-services"
+    label: "General Services"
     folder: "content/general-services"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { name: "title", label: "Title" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "body", label: "Body", widget: "markdown" }
-  - name: "health-matters"
-    label: "Health-Matters"
+    preview_path: "/general-services/{{slug}}"
+
+  - <<: *collection_defaults
+    name: "health-matters"
+    label: "Health Matters"
     folder: "content/health-matters"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { name: "title", label: "Title" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "body", label: "Body", widget: "markdown" }
-  - name: "pension"
-    label: "pension"
+    preview_path: "/health-matters/{{slug}}"
+
+  - <<: *collection_defaults
+    name: "pension"
+    label: "Pension"
     folder: "content/pension"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { name: "title", label: "Title" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "body", label: "Body", widget: "markdown" }
-  - name: "tel-numbers"
-    label: "Tel-Numbers"
+    preview_path: "/pension/{{slug}}"
+
+  - <<: *collection_defaults
+    name: "tel-numbers"
+    label: "Tel Numbers"
     folder: "content/tel-numbers"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { name: "title", label: "Title" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "body", label: "Body", widget: "markdown" }
+    preview_path: "/tel-numbers/{{slug}}"
