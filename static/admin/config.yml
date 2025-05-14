@@ -9,9 +9,11 @@ backend:
   base_url: https://decap.paramanuseniorshealth.org
   site_domain: paramanuseniorshealth.org
   auth_type: implicit
-  auth_endpoint: oauth
+  auth_endpoint: auth
+  squash_merges: true
 media_folder: "static"
 public_folder: "public"
+publish_mode: editorial_workflow
 
 collections:
   - name: "general-services"
