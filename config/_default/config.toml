@@ -14,7 +14,7 @@ theme = "hugo-bootstrap-theme"
 
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
-#enableGitInfo = true
+# enableGitInfo = true
 enableEmoji = true
 #sectionPagesMenu = "main"
 googleAnalytics = "G-BGSPDZEPPY"
@@ -22,6 +22,17 @@ googleAnalytics = "G-BGSPDZEPPY"
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[[frontmatter.defaults]]
+[frontmatter.defaults.where]
+kind = "page"
+[frontmatter.defaults.values]
+layout = "single"
+type = "page"
+draft = false
+weight = 20
+[frontmatter.defaults.values.menu.main]
+parent = "General Information"
 
 [taxonomies]
 tag = "tags"
