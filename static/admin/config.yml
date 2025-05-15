@@ -20,63 +20,143 @@ slug:
   clean_accents: true
   sanitize_replacement: "_"
 
-# ─── DRY blocks ───────────────────────────────────────
+# ─── DRY: anchors for reuse ───────────────────────────────────────────
 collection_defaults: &collection_defaults
   create: true
   delete: false
   slug: "{{year}}-{{slug}}"
   identifier_field: title
-  fields: &common_fields
-    - { name: "title", label: "Title" }
-    - { name: "date", label: "Publish Date", widget: "datetime", default: "{{now}}", hidden: true }
-    - { name: "description", label: "Description", widget: "text", required: false }
-    - { name: "tags", label: "Tags", widget: "list", required: false }
-    # - { name: "featured_image",  label: "Featured Image",
-    #     widget: "image",         required: false }
-    - { name: "body", label: "Body", widget: "markdown" }
-    - {
-        name: "upload",
-        label: "Attachments",
-        widget: "file",
-        multiple: true,
-        folder: "/static/files/",
-        required: false,
-      }
 
-# ─── Collections ──────────────────────────────────────
+title: &title { name: "title", label: "Title" }
+date: &date { name: "date", label: "Publish Date", widget: "hidden", default: "{{now}}" }
+lastmod: &lastmod { name: "lastmod", label: "Last Modified", widget: "hidden", default: "{{now}}" }
+type: &type { name: "type", label: "Type", widget: "hidden", default: "page" }
+weight: &weight { name: "weight", label: "Weight", widget: "hidden", default: 20 }
+layout: &layout { name: "layout", label: "Layout", widget: "hidden", default: "single" }
+desc: &desc { name: "description", label: "Description", widget: "text", required: false }
+tags: &tags { name: "tags", label: "Tags", widget: "list", required: false }
+body: &body { name: "body", label: "Body", widget: "markdown" }
+upload:
+    &upload {
+      name: "upload",
+      label: "Attachments",
+      widget: "file",
+      multiple: true,
+      folder: "/static/files/",
+      required: false,
+    }
+
+# ─── Collections ────────────────────────────────────────────────────
 collections:
-  # — Single-page “About” section —
+  # — Single-file “About” page —
   - name: "pages"
     label: "Pages"
     files:
-      - <<: *collection_defaults # pull in defaults
+      - <<: *collection_defaults
         file: "content/about.md"
         name: "about"
         label: "About Page"
         preview_path: "/about"
-        fields: *common_fields # override: keep only fields
+        fields:
+          - *title
+          - *date
+          - *lastmod
+          - *weight
+          - *type
+          - *layout
+          - *desc
+          - *tags
+          - *body
+          - *upload
 
-  # — Folder collections —
+  # — General Services —
   - <<: *collection_defaults
     name: "general-services"
     label: "General Services"
     folder: "content/general-services"
     preview_path: "/general-services/{{slug}}"
+    fields:
+      - *title
+      - *date
+      - *lastmod
+      - *weight
+      - *type
+      - *layout
+      - *desc
+      - *tags
+      - *body
+      - *upload
+      - label: "Menu"
+        name: "menu"
+        widget: "hidden"
+        collapsed: true
+        fields: [{ name: "main.parent", widget: "hidden", default: "General Services" }]
 
+  # — Health Matters —
   - <<: *collection_defaults
     name: "health-matters"
     label: "Health Matters"
     folder: "content/health-matters"
     preview_path: "/health-matters/{{slug}}"
+    fields:
+      - *title
+      - *date
+      - *lastmod
+      - *weight
+      - *type
+      - *layout
+      - *desc
+      - *tags
+      - *body
+      - *upload
+      - label: "Menu"
+        name: "menu"
+        widget: "hidden"
+        collapsed: true
+        fields: [{ name: "main.parent", widget: "hidden", default: "Health Matters" }]
 
+  # — Pension —
   - <<: *collection_defaults
     name: "pension"
     label: "Pension"
     folder: "content/pension"
     preview_path: "/pension/{{slug}}"
+    fields:
+      - *title
+      - *date
+      - *lastmod
+      - *weight
+      - *type
+      - *layout
+      - *desc
+      - *tags
+      - *body
+      - *upload
+      - label: "Menu"
+        name: "menu"
+        widget: "hidden"
+        collapsed: true
+        fields: [{ name: "main.parent", widget: "hidden", default: "Pension" }]
 
+  # — Tel Numbers —
   - <<: *collection_defaults
     name: "tel-numbers"
     label: "Tel Numbers"
     folder: "content/tel-numbers"
     preview_path: "/tel-numbers/{{slug}}"
+    fields:
+      - *title
+      - *date
+      - *lastmod
+      - *weight
+      - *type
+      - *layout
+      - *desc
+      - *tags
+      - *body
+      - *upload
+      - label: "Menu"
+        name: "menu"
+        widget: "hidden"
+        collapsed: true
+        fields: [{ name: "main.parent", widget: "hidden", default: "Tel Numbers" }]
