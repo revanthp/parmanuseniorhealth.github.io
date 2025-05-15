@@ -102,11 +102,20 @@ collections:
       - *tags
       - *body
       - *upload
-      - label: "Menu"
-        name: "main"
+      - name: "menu"
+        label: "Menu"
         widget: "object"
         collapsed: true
-        fields: [{ name: "parent", label: "parent", widget: "hidden", default: "General Services" }]
+        fields:
+          - name: "main"
+            label: "Main"
+            widget: "object"
+            collapsed: true
+            fields:
+              - name: "parent"
+                label: "parent"
+                widget: "hidden"
+                default: "General Information"
 
   # — Health Matters —
   - <<: *collection_defaults
@@ -125,11 +134,20 @@ collections:
       - *tags
       - *body
       - *upload
-      - label: "Menu"
-        name: "main"
+      - name: "menu"
+        label: "Menu"
         widget: "object"
         collapsed: true
-        fields: [{ name: "parent", label: "parent", widget: "hidden", default: "Health Matters" }]
+        fields:
+          - name: "main"
+            label: "Main"
+            widget: "object"
+            collapsed: true
+            fields:
+              - name: "parent"
+                label: "parent"
+                widget: "hidden"
+                default: "Health Matters"
 
   # — Pension —
   - <<: *collection_defaults
@@ -148,11 +166,20 @@ collections:
       - *tags
       - *body
       - *upload
-      - label: "Menu"
-        name: "main"
+      - name: "menu"
+        label: "Menu"
         widget: "object"
         collapsed: true
-        fields: [{ name: "parent", label: "parent", widget: "hidden", default: "Pensioners' Corner" }]
+        fields:
+          - name: "main"
+            label: "Main"
+            widget: "object"
+            collapsed: true
+            fields:
+              - name: "parent"
+                label: "parent"
+                widget: "hidden"
+                default: "Pensioners' Corner"
 
   # — Tel Numbers —
   - <<: *collection_defaults
@@ -171,8 +198,17 @@ collections:
       - *tags
       - *body
       - *upload
-      - label: "Menu"
-        name: "main"
+      - name: "menu"
+        label: "Menu"
         widget: "object"
         collapsed: true
-        fields: [{ name: "parent", label: "parent", widget: "hidden", default: "Telephone numbers" }]
+        fields:
+          - name: "main"
+            label: "Main"
+            widget: "object"
+            collapsed: true
+            fields:
+              - name: "parent"
+                label: "parent"
+                widget: "hidden"
+                default: "Telephone numbers"
