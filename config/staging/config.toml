@@ -1,0 +1,3 @@
+baseURL = "https://staging.paramanuseniorshealth.org/"
+enableRobotsTXT = false
+googleAnalytics = ""                                   # Disable GA in staging

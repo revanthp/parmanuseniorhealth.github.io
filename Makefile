@@ -1,5 +1,7 @@
 make local_server:
-	hugo server -D --disableFastRender -w
+	hugo server --environment development
+	# hugo server -D --disableFastRender -w
+
 
 make push:
 	git add .
