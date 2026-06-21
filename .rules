@@ -1,0 +1,41 @@
+[tool.rules]
+
+# Typography & Readability
+min_font_size_px = 16                 # Ensure base font size is readable
+prefer_line_height = "1.5"           # Improves legibility for seniors
+enforce_text_alignment = "left"      # Avoid justified text
+font_resize_controls = true          # Ensure A+/A– toggle exists
+
+# Color & Contrast
+require_high_contrast = true         # Enforce WCAG AA level contrast (4.5:1 or higher)
+avoid_color_only_indicators = true   # Never use color as the only signal
+
+# Navigation & Layout
+menu_structure = "simple"            # Flat or two-level menu, collapsible on mobile
+active_link_highlighting = true      # Show which page is active in nav
+breadcrumb_navigation = true         # Enable breadcrumbs except on homepage
+uniform_page_layout = true           # All pages follow: heading → intro → content → links
+
+# Content Quality
+enforce_plain_language = true        # Avoid jargon; expand acronyms on first use
+require_pdf_labeling = true          # Add (PDF) or file size to all download links
+prefer_html_over_pdf = true          # Key content should be available in HTML
+require_descriptive_headings = true  # Headings must summarize content below them
+
+# Mobile & Touch
+responsive_layout = true
+touch_target_min_size_px = 40        # Minimum clickable area for links/buttons
+mobile_menu_toggle_required = true   # Collapse menus on smaller screens
+
+# Functional Enhancements
+enable_search_bar = true             # Site must have search (via CSE or Lunr.js)
+include_back_to_top = true           # For long pages
+label_external_links = true          # Identify links that open new tabs or go to external sites
+
+# Content Style Guide
+consistent_terms = true              # Same phrase/label used across all pages
+defined_content_structure = true     # Each page has: purpose → core info → resources
+
+# Performance & UX
+optimize_for_low_bandwidth = true    # No large media, compress PDFs/images
+defer_nonessential_scripts = true    # Faster initial load
