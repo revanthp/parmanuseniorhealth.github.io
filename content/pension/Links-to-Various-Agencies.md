@@ -13,7 +13,7 @@ menu:
 
 [Pension Grievance Redress System](https://pgportal.gov.in/pension/)
 
-[BARC Pension Portal](http://barc.gov.in/pensioner/index.html)
+[BARC Pension Portal](https://barc.gov.in/pensioner/index.html)
 
 [Min of Personnel, Public Grievance & Pensions](https://pensionersportal.gov.in/)
 
@@ -31,7 +31,7 @@ menu:
 
 [Scientific Assistants' Association of BARC](https://saabmumbai.wordpress.com/)
 
-[Central Administrative Tribunal, Mumbai](http://cgat.gov.in)
+[Central Administrative Tribunal, Mumbai](https://cgat.gov.in)
 
 [High Court, Mumbai](https://bombayhighcourt.nic.in/index.php)
 

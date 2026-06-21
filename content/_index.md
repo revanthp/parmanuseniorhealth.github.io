@@ -112,8 +112,8 @@ Every effort is made to cater specifically to the day to day requirements and qu
 
 <div class="deep-sea-blue-banner">
   <h3>Latest Circulars:
-    <a href="/404.html" style="color: orange;"> A. Jan – Jun  </a>,
-    <a href="/404.html" style="color: orange;"> B. Jul – Dec</a>
+    <a href="/files/circulars-jan-to-june.pdf" style="color: orange;"> A. Jan – Jun  </a>,
+    <span style="color: orange;"> B. Jul – Dec</span>
   </h3>
 </div>
 
