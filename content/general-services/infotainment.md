@@ -12,26 +12,26 @@ menu:
     parent: "General Information"
 ---
 
-[The city of Mumbai](/files/general/mumbai-darshan.pdf)
+[The city of Mumbai (PDF)](/files/general/mumbai-darshan.pdf)
 
-[Get Well Soon](/files/get-well-soon.pdf)
+[Get Well Soon (PDF)](/files/get-well-soon.pdf)
 
-[Historical Caves](/files/general/historical-caves.pdf)
+[Historical Caves (PDF)](/files/general/historical-caves.pdf)
 
-[Matheran Hill Station](/files/general/matheran-hill-station.pdf)
+[Matheran Hill Station (PDF)](/files/general/matheran-hill-station.pdf)
 
-[Golf Clubs](/files/general/golf-clubs.pdf)
+[Golf Clubs (PDF)](/files/general/golf-clubs.pdf)
 
-[Waterfalls](/files/general/waterfalls.pdf)
+[Waterfalls (PDF)](/files/general/waterfalls.pdf)
 
-[Essel World](/files/general/essel-world.pdf)
+[Essel World (PDF)](/files/general/essel-world.pdf)
 
-[Imagicaa Theme Park](/files/general/imagicaa-theme-park.pdf)
+[Imagicaa Theme Park (PDF)](/files/general/imagicaa-theme-park.pdf)
 
-[Sea Travel](/files/sea-travel.pdf)
+[Sea Travel (PDF)](/files/sea-travel.pdf)
 
-[Futuristic Mumbai](/files/general/futuristic-mumbai.pdf)
+[Futuristic Mumbai (PDF)](/files/general/futuristic-mumbai.pdf)
 
-[Heritage Monuments](/files/general/twenty-heritage-buildings.pdf)
+[Heritage Monuments (PDF)](/files/general/twenty-heritage-buildings.pdf)
 
-[Maharashtra Tourism](/files/general/links-to-videos.pdf)
+[Maharashtra Tourism (PDF)](/files/general/links-to-videos.pdf)

@@ -12,10 +12,10 @@ menu:
     parent: "General Information"
 ---
 
-[Post Office](/files/general/financial-instruments-offered-by-post-office.pdf)
+[Post Office (PDF)](/files/general/financial-instruments-offered-by-post-office.pdf)
 
-[Financial Tips](/files/general/handy-financial-tips-for-retirees.pdf)
+[Financial Tips (PDF)](/files/general/handy-financial-tips-for-retirees.pdf)
 
-[Banking](/files/general/banking-matters.pdf)
+[Banking (PDF)](/files/general/banking-matters.pdf)
 
-[Tax Free Bonds](/files/general/tax-free-bonds-the-financial-express.pdf)
+[Tax Free Bonds (PDF)](/files/general/tax-free-bonds-the-financial-express.pdf)

@@ -11,8 +11,8 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Relief paid to Family on death of Employee](/files/pension/immediate-relief-paid-family-page-35-dae-hb-pen-2018.pdf)
+[Relief paid to Family on death of Employee (PDF)](/files/pension/immediate-relief-paid-family-page-35-dae-hb-pen-2018.pdf)
 
-[DAE employees Family Welfare Scheme](/files/pension/dae-employee-family-welfare-scheme-page-35-36-dae-hb-pen-2018.pdf)
+[DAE employees Family Welfare Scheme (PDF)](/files/pension/dae-employee-family-welfare-scheme-page-35-36-dae-hb-pen-2018.pdf)
 
-[CHSS / Fixed Medical Allowance](/files/pension/chss-or-fixed-medical-allowance-page-34-dae-hb-pen-2018.pdf)
+[CHSS / Fixed Medical Allowance (PDF)](/files/pension/chss-or-fixed-medical-allowance-page-34-dae-hb-pen-2018.pdf)

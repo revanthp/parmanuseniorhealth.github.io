@@ -10,6 +10,6 @@ menu:
     parent: "CHSS & Health Matters"
 ---
 
-[Procedure](/files/procedure-for-availaing-treatement-under-yoga-and-naturopathy.pdf)
+[Procedure (PDF)](/files/procedure-for-availaing-treatement-under-yoga-and-naturopathy.pdf)
 
-[DAE Order](/files/extension-of-yoga-and-naturopathy-treatments-for-chss-beneficiaries-dae-order-2018.pdf)
+[DAE Order (PDF)](/files/extension-of-yoga-and-naturopathy-treatments-for-chss-beneficiaries-dae-order-2018.pdf)

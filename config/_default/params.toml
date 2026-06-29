@@ -17,10 +17,10 @@ color = "navy"
 # Alert
 alert = false
 alertDismissable = true
-alertText = "Introducing this new service! <a class=\"alert-link stretched-link\" href=\"https://salvus.site/\">Check out Total Security</a>"
+alertText = ""
 
 # Pre-footer
-footerAbout = true
+footerAbout = false
 footerAboutTitle = "Few Words About Us"
 footerAboutText = "We protect your website so you can provide a safe environment to build trust and improve the user experience of your visitors.<br/><br/>Salvus Site is the partner that you can rely on for preventive and reactive cybersecurity."
 

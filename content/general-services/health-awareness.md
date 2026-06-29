@@ -13,8 +13,8 @@ menu:
     parent: "General Information"
 ---
 
-[Introduction](/files/general/prelude-to-health-awareness.pdf)
+[Introduction (PDF)](/files/general/prelude-to-health-awareness.pdf)
 
-[Lab Tests and Ref. Values](/files/general/lab-test-and-reference-values.pdf)
+[Lab Tests and Ref. Values (PDF)](/files/general/lab-test-and-reference-values.pdf)
 
-[Physio for nect and back](/files/general/physical-fitness-in-elderly-remedies-with-physiotherapy-approaches.pdf)
+[Physio for nect and back (PDF)](/files/general/physical-fitness-in-elderly-remedies-with-physiotherapy-approaches.pdf)
