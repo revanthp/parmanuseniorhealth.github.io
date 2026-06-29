@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Retirement benefits](/files/pension/retirement-benefits-page-5-dae-hb-pen-2018.pdf)
+[Retirement benefits (PDF)](/files/pension/retirement-benefits-page-5-dae-hb-pen-2018.pdf)

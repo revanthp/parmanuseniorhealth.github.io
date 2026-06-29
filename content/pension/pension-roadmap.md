@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Pension Road Map](/files/pension/pension-roadmap.pdf)
+[Pension Road Map (PDF)](/files/pension/pension-roadmap.pdf)

@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[Life Certificate (Jeevan Pramaan)](/files/pension/jeevan-pramaan.pdf)
+[Life Certificate (Jeevan Pramaan) (PDF)](/files/pension/jeevan-pramaan.pdf)

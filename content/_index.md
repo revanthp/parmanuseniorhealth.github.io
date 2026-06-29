@@ -79,9 +79,9 @@ Every effort is made to cater specifically to the day to day requirements and qu
 
 <h4 style="color: orange;">Frequently Required Information</h4>
 
-#### [OPDs & Dispensaries](/files/dispensaries-and-opds-revised.pdf)
+#### [OPDs & Dispensaries (PDF)](/files/dispensaries-and-opds-revised.pdf)
 
-#### [Intimation of Death & Organ Donation](/files/intimation-about-death-and-organ-donation.pdf)
+#### [Intimation of Death & Organ Donation (PDF)](/files/intimation-about-death-and-organ-donation.pdf)
 
 <h2 class="centered-helpline">Help Line : 112 (Police, Fire, Health & Women Help Line)</h2>
 
@@ -112,7 +112,7 @@ Every effort is made to cater specifically to the day to day requirements and qu
 
 <div class="deep-sea-blue-banner">
   <h3>Latest Circulars:
-    <a href="/files/circulars-jan-to-june.pdf" style="color: orange;"> A. Jan – Jun  </a>,
+    <a href="/files/circulars-jan-to-june.pdf" style="color: orange;"> A. Jan – Jun (PDF)</a>,
     <span style="color: orange;"> B. Jul – Dec</span>
   </h3>
 </div>

@@ -10,10 +10,10 @@ menu:
     parent: "CHSS & Health Matters"
 ---
 
-[Consultant Doctors](/files/panel-doctors-or-consultants-of-barc-hospital.pdf)
+[Consultant Doctors (PDF)](/files/panel-doctors-or-consultants-of-barc-hospital.pdf)
 
-[Panel Hospitals](/files/panel-hospitals-of-barc-hospital.pdf)
+[Panel Hospitals (PDF)](/files/panel-hospitals-of-barc-hospital.pdf)
 
-[Speciality Wise Consultant Doctors](/files/speciality-wise-panel-consultants-to-barc-hospital.pdf)
+[Speciality Wise Consultant Doctors (PDF)](/files/speciality-wise-panel-consultants-to-barc-hospital.pdf)
 
-[Panel Hospitals for Cardiac Treatment](/files/panel-hospitals-cardiac-treatment.pdf)
+[Panel Hospitals for Cardiac Treatment (PDF)](/files/panel-hospitals-cardiac-treatment.pdf)

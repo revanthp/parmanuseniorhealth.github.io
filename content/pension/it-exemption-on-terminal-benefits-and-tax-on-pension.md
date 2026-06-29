@@ -11,4 +11,4 @@ menu:
     parent: "Pensioners' Corner"
 ---
 
-[IT Exemption on Terminal Benefits & Tax on Pension](/files/pension/it-exemption-on-benefits-and-pension-page-12-13-dae-hb-pen-2018.pdf)
+[IT Exemption on Terminal Benefits & Tax on Pension (PDF)](/files/pension/it-exemption-on-benefits-and-pension-page-12-13-dae-hb-pen-2018.pdf)
