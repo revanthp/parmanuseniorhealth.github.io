@@ -177,6 +177,21 @@ table {
     color: var(--bd-navy);
 }
 
+// Accessible in-content links: darker colour passes WCAG AA contrast on white
+// (~5.6:1) and a persistent underline means links are not distinguished by
+// colour alone. Scoped to the main content so navbar / button / banner links
+// keep their own styling.
+main#content a:not(.btn):not(.music-link):not(.nav-link) {
+    color: #0a58ca;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+        color: #084298;
+        text-decoration: underline;
+    }
+}
+
 // List styles
 .list {
     .card {
