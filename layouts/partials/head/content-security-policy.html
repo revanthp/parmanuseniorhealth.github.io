@@ -1,0 +1,8 @@
+<!-- Overrides theme partial of the same name. -->
+<!-- script-src must allow the inline GTM loader ('unsafe-inline') plus Google's
+     tag/analytics origins; GTM injects inline tag scripts at runtime and this is a
+     static host (GitHub Pages) with no server to emit per-request nonces.
+     img-src / frame-src / connect-src are intentionally left unset (no default-src),
+     matching the prior policy, so YouTube thumbnails and the click-loaded embed are
+     not newly restricted. -->
+<meta http-equiv='Content-Security-Policy' content="script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://analytics.google.com; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">

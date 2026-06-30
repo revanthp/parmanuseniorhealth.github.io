@@ -21,6 +21,50 @@ images: ["images/logo.jpeg"]
     gap: 20px;
     margin-bottom: 20px;
   }
+  .youtube-lite {
+    position: relative;
+    display: block;
+    aspect-ratio: 16 / 9;
+    cursor: pointer;
+    background-color: #000;
+    overflow: hidden;
+  }
+  .youtube-lite img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .youtube-lite .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 14px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .youtube-lite .play-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    border-style: solid;
+    border-width: 11px 0 11px 19px;
+    border-color: transparent transparent transparent #fff;
+  }
+  .youtube-lite:hover .play-button,
+  .youtube-lite:focus .play-button {
+    background-color: #ff0000;
+  }
+  @media (max-width: 575.98px) {
+    .video-container {
+      grid-template-columns: 1fr;
+    }
+  }
   .music-link {
     background-color: yellow;
     font-size: 2em;
@@ -57,23 +101,16 @@ This web site viz., PARAMANUSENIORSHEALTH.ORG has been created to make pensioner
 Every effort is made to cater specifically to the day to day requirements and quest for vast worldly knowledge matching with the intellectual appetite and calibre of DAE fraternity.
 
 <div class="video-container">
+  <a href="https://www.youtube.com/watch?v=fULvjpAPlxA" class="youtube-lite" data-id="fULvjpAPlxA" aria-label="Play video: Retirement Song">
+    <img src="https://i.ytimg.com/vi/fULvjpAPlxA/hqdefault.jpg" alt="Retirement Song" width="480" height="360" loading="lazy">
+    <span class="play-button" aria-hidden="true"></span>
+  </a>
 
-<iframe width="548" height="309" src="https://www.youtube.com/embed/fULvjpAPlxA" title="Retirement Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
-
-<iframe width="548" height="309" src="https://www.youtube.com/embed/HpPtnDbGBVg" title="Seated Chair STRETCHES for Seniors/Older Adults/Beginners (10 minutes - to increase flexibility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+  <a href="https://www.youtube.com/watch?v=HpPtnDbGBVg" class="youtube-lite" data-id="HpPtnDbGBVg" aria-label="Play video: Seated Chair Stretches for Seniors">
+    <img src="https://i.ytimg.com/vi/HpPtnDbGBVg/hqdefault.jpg" alt="Seated Chair STRETCHES for Seniors/Older Adults/Beginners" width="480" height="360" loading="lazy">
+    <span class="play-button" aria-hidden="true"></span>
+  </a>
 </div>
-
-<!-- <div class="video-container">
-  <a href="https://www.youtube.com/watch?v=fULvjpAPlxA" class="youtube-lite" data-id="fULvjpAPlxA">
-    <img src="https://img.youtube.com/vi/fULvjpAPlxA/maxresdefault.jpg" alt="Retirement Song">
-    <div class="play-button"></div>
-  </a>
-
-  <a href="https://www.youtube.com/watch?v=HpPtnDbGBVg" class="youtube-lite" data-id="HpPtnDbGBVg">
-    <img src="https://img.youtube.com/vi/HpPtnDbGBVg/maxresdefault.jpg" alt="Seated Chair STRETCHES for Seniors/Older Adults/Beginners">
-    <div class="play-button"></div>
-  </a>
-</div> -->
 
 <a href="/files/links-for-indian-classical-music.pdf" class="music-link">🔘Links for Indian Classical Music</a>
 
@@ -117,12 +154,12 @@ Every effort is made to cater specifically to the day to day requirements and qu
   </h3>
 </div>
 
-<!-- <script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Get all the lite youtube elements
+  // Get all the lite youtube facade elements
   const youtubeLinks = document.querySelectorAll('.youtube-lite');
 
-  // Add click event listener to each element
+  // Swap the thumbnail facade for the real iframe only on click
   youtubeLinks.forEach(function(link) {
     link.addEventListener('click', function(e) {
       e.preventDefault();
@@ -131,18 +168,20 @@ document.addEventListener('DOMContentLoaded', function() {
       const videoId = this.getAttribute('data-id');
       if (!videoId) return;
 
-      // Create iframe element
+      // Create the iframe element
       const iframe = document.createElement('iframe');
-      iframe.setAttribute('width', '100%');
-      iframe.setAttribute('height', '100%');
       iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0');
+      iframe.setAttribute('title', this.getAttribute('aria-label') || 'YouTube video');
       iframe.setAttribute('frameborder', '0');
       iframe.setAttribute('allowfullscreen', '');
-      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      iframe.style.width = '100%';
+      iframe.style.aspectRatio = '16 / 9';
+      iframe.style.border = '0';
 
-      // Replace the link with the iframe
+      // Replace the facade with the iframe
       this.parentNode.replaceChild(iframe, this);
     });
   });
 });
-</script> -->
+</script>

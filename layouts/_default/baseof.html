@@ -30,10 +30,10 @@
         ></noscript>
         <!-- End Google Tag Manager (noscript) -->
         {{- partial "header/header.html" . -}}
-        <div id="content">
+        <main id="content">
             {{ if and (.Site.Params.options.breadCrumb) (ne .Kind "home") -}} {{- partial "header/breadcrumb.html" . -}}
             {{ end }} {{- block "main" . }}{{- end }}
-        </div>
+        </main>
         {{ partial "footer/footer.html" . }} {{ partial "footer/script-footer.html" . }}
     </body>
 </html>
