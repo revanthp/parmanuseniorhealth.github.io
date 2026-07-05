@@ -1,7 +1,6 @@
 User-agent: *
 {{- if eq hugo.Environment "production" }}
 Disallow: /404.html
-Disallow: /index.html
 Sitemap: {{ "sitemap.xml" | absURL }}
 {{- else }}
 Disallow: /
