@@ -34,6 +34,10 @@ The server hosting this site can collect the following information:
 
 All logs are discarded in every release.
 
+## Paramanu Seniors Notices App Users
+
+Detailed in [Privacy Policy - Paramanu Seniors Notices](/privacy-policy-app/).
+
 ## Contact us
 
 [Contact us](/contact/) if you have any questions.
