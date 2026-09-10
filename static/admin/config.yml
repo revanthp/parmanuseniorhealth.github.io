@@ -85,6 +85,42 @@ collections:
           - *body
           - *upload
 
+  # — Alerts —
+  # Every alert is one markdown page; the RSS feed at /alerts/index.xml is built
+  # from these pages, so a PDF uploaded on its own will not broadcast.
+  # `type` is "alerts" (not the shared *type anchor) so Hugo picks up
+  # layouts/alerts/single.html instead of the generic page layout.
+  - <<: *collection_defaults
+    name: "alerts"
+    label: "Alerts"
+    folder: "content/alerts"
+    preview_path: "/alerts/{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - *title
+      - *date
+      - *lastmod
+      - name: "description"
+        label: "Short summary"
+        widget: "text"
+        required: true
+        hint: "Plain language, one or two sentences. This is the text sent in the mobile notification."
+      - name: "type"
+        label: "Type"
+        widget: "hidden"
+        default: "alerts"
+      - *layout
+      - *weight
+      - name: "attachment"
+        label: "Attachment (PDF or image)"
+        widget: "file"
+        required: false
+        media_folder: "/static/files"
+        public_folder: "/files"
+        hint: "Optional. One file only. Its link is included in the notification."
+      - *tags
+      - *body
+
   # — General Services —
   - <<: *collection_defaults
     name: "general-services"

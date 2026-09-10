@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ $attachment := partial "alerts/attachment.html" . }}
+<div class="container py-3">
+  <h1 class="page-title">{{ .Title }}</h1>
+
+  <p class="text-muted">
+    <time datetime="{{ .Date.Format `2006-01-02` }}">{{ .Date | time.Format ":date_long" }}</time>
+  </p>
+
+  {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+
+  {{ .Content }}
+
+  {{ with $attachment }}
+    {{ if .isImage }}
+      <p><img class="img-fluid" src="{{ .url }}" alt="Attachment for {{ $.Title }}" loading="lazy" /></p>
+    {{ end }}
+    <p>{{ partial "alerts/download-link.html" . }}</p>
+  {{ end }}
+
+  <p class="mt-4"><a class="d-inline-block py-2" href="{{ .Parent.RelPermalink }}">Back to all alerts</a></p>
+</div>
+{{ end }}

@@ -1,0 +1,47 @@
+{{- /*
+  RSS feed for the Alerts section only: /alerts/index.xml
+
+  Overrides Hugo's internal RSS template for this one section because the
+  internal one sorts by weight first (every page here defaults to weight 20)
+  and cannot emit an <enclosure> for the attached PDF or image.
+
+  Each item is shaped for the FCM broadcast script:
+    <title>              -> notification title
+    <description>        -> notification body (plain text, no markup)
+    <enclosure url=...>   -> PDF or image URL, with its MIME type
+    <content:encoded>    -> full HTML body, for anything that wants the detail
+*/ -}}
+{{- $pages := .RegularPages.ByDate.Reverse -}}
+{{- $pages = first 50 $pages -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ .Title }} — Paramanu Seniors Health</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ .Description | default "Latest notices, circulars and announcements for DAE pensioners and CHSS beneficiaries" }}</description>
+    <language>{{ site.Language.LanguageCode }}</language>
+    {{- with $pages }}
+    <lastBuildDate>{{ (index . 0).Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}
+    {{- with .OutputFormats.Get "rss" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- end }}
+    {{- range $pages }}
+    {{- $attachment := partial "alerts/attachment.html" . }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <description>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 400 }}{{ end }}</description>
+      {{- with $attachment }}
+      <enclosure url="{{ .permalink }}" length="{{ .size }}" type="{{ .mime }}" />
+      {{- end }}
+      {{- range .Params.tags }}
+      <category>{{ . }}</category>
+      {{- end }}
+      <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

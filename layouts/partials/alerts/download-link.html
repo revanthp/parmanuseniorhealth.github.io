@@ -1,0 +1,11 @@
+{{/*
+  Renders the download link for an alert attachment.
+  Always carries a visible file-type label and, where known, the file size,
+  as required by `require_pdf_labeling` in .rules.
+
+  Call with the attachment dict from partials/alerts/attachment.html.
+*/}}
+<a class="d-inline-block py-2 fw-semibold" href="{{ .url }}" target="_blank" rel="noopener">
+  {{ if .isImage }}View{{ else }}Download{{ end }} attachment
+  ({{ .typeLabel }}{{ with .sizeLabel }}, {{ . }}{{ end }}, opens in a new tab)
+</a>

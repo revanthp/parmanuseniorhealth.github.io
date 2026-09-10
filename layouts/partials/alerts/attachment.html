@@ -1,0 +1,63 @@
+{{/*
+  Resolves the `attachment` front matter value of an alert page into everything
+  both the HTML templates and the RSS feed need.
+
+  Call with a page: {{ $a := partial "alerts/attachment.html" . }}
+  Returns nil when the page has no attachment, otherwise a dict:
+    .url        relative path as stored by the CMS, e.g. /files/circular.pdf
+    .permalink  absolute URL, used for the RSS <enclosure> and the FCM payload
+    .mime       MIME type derived from the file extension
+    .size       size in bytes (0 when the file is missing from static/)
+    .sizeLabel  human readable size, e.g. "1.2 MB"
+    .isImage    true for image attachments, false for PDFs and other files
+    .typeLabel  "PDF" / "Image" / "File", used for the required download label
+*/}}
+{{- $url := trim (.Params.attachment | default "") " " -}}
+{{- $out := "" -}}
+{{- with $url -}}
+  {{- $ext := lower (path.Ext .) -}}
+  {{- $mimes := dict
+      ".pdf"  "application/pdf"
+      ".jpg"  "image/jpeg"
+      ".jpeg" "image/jpeg"
+      ".png"  "image/png"
+      ".webp" "image/webp"
+      ".gif"  "image/gif"
+  -}}
+  {{- $mime := index $mimes $ext | default "application/octet-stream" -}}
+
+  {{/* Files live in static/, which Hugo copies verbatim, so stat them on disk
+       to get a real <enclosure length>. A missing file degrades to 0 rather
+       than failing the build. */}}
+  {{- $size := 0 -}}
+  {{- $path := printf "static%s" . -}}
+  {{- if fileExists $path -}}
+    {{- $size = (os.Stat $path).Size -}}
+  {{- end -}}
+
+  {{- $sizeLabel := "" -}}
+  {{- if ge $size 1048576 -}}
+    {{- $sizeLabel = printf "%.1f MB" (div (float $size) 1048576.0) -}}
+  {{- else if gt $size 0 -}}
+    {{- $sizeLabel = printf "%.0f KB" (math.Ceil (div (float $size) 1024.0)) -}}
+  {{- end -}}
+
+  {{- $isImage := hasPrefix $mime "image/" -}}
+  {{- $typeLabel := "File" -}}
+  {{- if eq $mime "application/pdf" -}}
+    {{- $typeLabel = "PDF" -}}
+  {{- else if $isImage -}}
+    {{- $typeLabel = "Image" -}}
+  {{- end -}}
+
+  {{- $out = dict
+      "url"       .
+      "permalink" (absURL .)
+      "mime"      $mime
+      "size"      $size
+      "sizeLabel" $sizeLabel
+      "isImage"   $isImage
+      "typeLabel" $typeLabel
+  -}}
+{{- end -}}
+{{- return $out -}}
