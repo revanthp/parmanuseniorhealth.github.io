@@ -6,7 +6,7 @@ description: Image
 type: alerts
 layout: single
 weight: 20
-attachment: /files/sbeba-kochi-consultation-2026-09-11.jpeg
+attachment: ""
 tags:
   - ayurveda
 ---
