@@ -90,9 +90,13 @@ collections:
   # from these pages, so a PDF uploaded on its own will not broadcast.
   # `type` is "alerts" (not the shared *type anchor) so Hugo picks up
   # layouts/alerts/single.html instead of the generic page layout.
+  # Alerts go stale, so unlike every other collection they can be deleted and
+  # unpublished. Both act on the markdown page only: the attachment stays in
+  # static/files, so old notification links keep working.
   - <<: *collection_defaults
     name: "alerts"
     label: "Alerts"
+    delete: true
     folder: "content/alerts"
     preview_path: "/alerts/{{slug}}"
     sortable_fields: ["date", "title"]
@@ -119,7 +123,11 @@ collections:
         public_folder: "/files"
         hint: "Optional. One file only. Its link is included in the notification."
       - *tags
-      - *body
+      # Not the shared *body anchor: an alert can be just a headline, a summary
+      # and a PDF, so the body is optional here while it stays required elsewhere.
+      - <<: *body
+        required: false
+        hint: "Optional. Leave empty if the summary and the attachment say everything."
 
   # — General Services —
   - <<: *collection_defaults
