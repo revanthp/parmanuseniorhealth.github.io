@@ -50,7 +50,7 @@ Website for DAE pensioners and CHSS beneficiaries. Audience is senior citizens; 
 - **Backend:** GitHub OAuth via implicit flow; auth worker at `decap.paramanuseniorshealth.org`
 - **Media:** uploaded to `static/files/`; public path is `/files/`
 - **Editorial workflow is enabled** — CMS saves open a PR; publishing merges it; this triggers CI/CD
-- **`delete: false`** on all collections — content is never deleted via CMS
+- **`delete: false`** on all collections except Alerts — other content is never deleted via CMS. Alerts allow delete/unpublish; note a delete of a *published* entry commits straight to `main`, skipping review, and leaves the attachment in `static/files/`
 - **YAML anchors** are used extensively for DRY field definitions (`&title`, `&date`, etc.) — reuse them, don't duplicate field objects
 - When adding a new collection, copy the `<<: *collection_defaults` merge key and add the appropriate `menu.main.parent` hidden field
 - Do not disable `squash_merges: true` — keeps main branch history clean
