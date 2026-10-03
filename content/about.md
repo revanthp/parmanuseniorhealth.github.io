@@ -57,5 +57,5 @@ The needs of Pensioners and CHSS beneficiaries can't be felt better than those w
 
 ## Contact Us
 
-- Phone: +91-9372793791
+- Phone: +91 99202 19522
 - Address: 201 Satavahana CHS Ltd, Plot Nos: 392 & 403, Sector 31, VASHI (Post), Navi Mumbai, Maharashtra State, India, PIN – 400 703.
