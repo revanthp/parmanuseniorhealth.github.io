@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.paramanuseniorshealth.notices",
+      "sha256_cert_fingerprints": [
+        "D1:52:DF:E6:11:6F:9C:67:3B:4F:9F:C9:D3:8D:6E:E3:3D:10:A2:C7:65:31:EF:D5:06:FA:DD:2A:C3:71:AE:9E"
+      ]
+    }
+  }
+]
