@@ -1,7 +1,7 @@
 ---
 title: "Terms of Service"
 description: "The terms for using paramanuseniorshealth.org and the Paramanu Seniors Notices app."
-draft: false
+draft: true
 tags: ["Terms"]
 menu:
   footer:
