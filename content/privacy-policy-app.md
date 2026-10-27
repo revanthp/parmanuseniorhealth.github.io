@@ -8,116 +8,95 @@ menu:
 ---
 # Privacy Policy — Paramanu Seniors Notices
 
-**Last updated: 3 October 2026**
+**Last updated: 26 October 2026**
 
-This policy describes how the Android app **Paramanu Seniors Notices**
-(`org.paramanuseniorshealth.notices`) handles information. The app is published on behalf of
-Paramanu Seniors Health, which is responsible for the notices it delivers.
+Paramanu Seniors Notices (`org.paramanuseniorshealth.notices`) delivers public notices from
+Paramanu Seniors Health to CHSS beneficiaries registered under Vashi Dispensary. Paramanu Seniors
+Health is responsible for the app and for the information described here. The app is not a
+substitute for contacting the dispensary or your doctor.
 
 ## In short
 
-The app does not ask you for your name, telephone number, email address, postal address, date of
-birth, or any health information. It has no advertising, no analytics, and no tracking.
+- The app never asks for your name, telephone number, email, address, date of birth or any health
+  information.
+- There is no account, no password and no advertising. Nothing is sold or shared for marketing.
+- Notices, and the pictures and circulars that come with them, stay on your phone.
+- Your phone is known only by its activation code and by random identifiers the app creates —
+  never by your name.
 
-Activation codes are given only to CHSS beneficiaries registered under Vashi Dispensary. Before
-giving you a code, the HelpDesk or a registered volunteer may check your name, CHSS number and
-telephone number. These details are written down only if you ask for them to be kept, as described
-under [Details recorded at the counter](#details-recorded-at-the-counter).
+## What stays on your phone
 
-## What the app stores on your phone
+The notices you receive, their pictures and circulars, your activation code, and the kinds of
+notice you have chosen. Older pictures and circulars may be cleared to save space; they can be
+downloaded again with a tap. Uninstalling the app removes all of it.
 
-- The notices you have received, so you can read them again whenever you want. They stay until you
-  delete them.
-- Pictures and circulars that came with the notices. To save space, the oldest of these may be
-  cleared from your phone; the notice itself stays, and the picture or circular can be downloaded
-  again with a tap.
-- Your activation code.
+## What the app sends
 
-This information stays on your phone and is not uploaded. Uninstalling the app removes all of it.
+- **Your activation code and an anonymous identifier**, when you activate. They are stored together
+  so the organisation can confirm the code has been used, and can stop notices to a phone if asked.
+- **A delivery identifier**, which Google Firebase Cloud Messaging uses to deliver notices to this
+  installation.
+- **Usage measurements and crash reports**, described below.
 
-## What the app sends over the internet
-
-**An anonymous account identifier.** When you enter your activation code, the app creates an
-anonymous account with Google Firebase. This is a random identifier. It is not connected to your
-name, your telephone number, your email address, or any account you may have with Google. It is
-stored alongside your activation code so that the organisation can confirm the code has been used,
-and can stop notices to a particular phone if asked.
-
-**Your activation code**, for the same purpose.
-
-**A message registration for your app installation.** Google Firebase Cloud Messaging assigns an
-identifier to this installation of the app so notices can be delivered to it. The app itself does
-not read or store this identifier. Google's handling of it is covered by the Google Privacy Policy.
-
-**Ordinary connection information.** As with any app or website, your device's internet address is
-visible to the servers it connects to: Google Firebase, and the website a picture or circular is
-downloaded from, usually paramanuseniorshealth.org.
-
-Nothing else is sent. In particular, the app does not send your location, your contacts, your
-photographs, an advertising identifier, or any record of what you read.
+The app does not ask for your location, and does not send your contacts, your photographs or an
+advertising identifier.
 
 ## Details recorded at the counter
 
-This part is optional, and happens only if you ask for it.
+Only if you ask, the HelpDesk can record your name, CHSS number and telephone number against your
+activation code, so they can find your code again if you lose your slip or change your phone. These
+details are never sent to any phone, and only HelpDesk staff and volunteers named by Paramanu
+Seniors Health can see them. You can ask for them to be corrected or removed at any time.
 
-If you ask, the HelpDesk can record your **name**, **CHSS number** and **telephone number** against
-your activation code. This lets the HelpDesk find your code again if you lose your slip, change your
-phone, or call for help.
+## Usage measurements
 
-- These details are entered by the HelpDesk, not by the app. They are never sent to any phone,
-  including yours.
-- Only HelpDesk staff and volunteers named by Paramanu Seniors Health can see them.
-- They are held in the same Firebase database as the activation record.
-- You can ask for them to be corrected or removed at any time. Once removed, they are erased
-  permanently within 60 days.
+From time to time the organisation switches on measurement to check that the app works properly on
+real phones, and switches it off when done. While it is on, it records things such as whether a
+notice arrived and how the app was opened, which notices were viewed and for how long (by reference
+number, never their words), how long pictures and circulars took to download, whether the phone was
+on wifi or mobile data, and whether an activation code was accepted. Google adds standard details
+such as the Android version, app version, language and country.
 
-## What the app does not do
+These records are tied to a random identifier for this installation — never to your name,
+telephone number or activation code — and are looked at only as totals and averages across all
+phones.
 
-- No advertising, and no advertising identifier. The app does not request the Android advertising
-  ID permission.
-- No analytics or usage tracking of individuals.
-- No sale or sharing of information with anyone for marketing.
-- No medical advice, diagnosis, prescriptions, or appointment booking. The app delivers
-  announcements only, and is not a substitute for contacting the dispensary or your doctor.
+**Crash reports are always on.** If the app stops unexpectedly it sends a technical report of what
+went wrong, including the phone model, but never what you were reading.
 
-## Who processes this information
+## Who handles this information
 
-Google, through the Firebase service, on behalf of Paramanu Seniors Health. Messages are delivered
-by Firebase Cloud Messaging; the activation record, and any details recorded at the counter, are
-held in a Firebase database. Google's practices are described in the Google
-Privacy Policy at https://policies.google.com/privacy and Firebase's data handling at
-https://firebase.google.com/support/privacy.
+Google, through Firebase, on behalf of Paramanu Seniors Health. The activation record and counter
+details are held in Singapore; usage measurements are stored in Mumbai, India. See the
+[Google Privacy Policy](https://policies.google.com/privacy) and
+[Firebase's data handling](https://firebase.google.com/support/privacy).
 
 ## How long it is kept
 
-Notices on your phone are kept until you delete them or uninstall the app.
-
-The record connecting your activation code to its anonymous identifier is kept while the code is in
-use. Uninstalling the app does not remove it. If you ask the organisation to release your code, or
-the code is withdrawn, that record is removed.
-
-Details recorded at the counter are kept until you ask for them to be removed, or until you are
-removed from the notices list. They are then erased permanently within 60 days.
+- **Notices on your phone:** until you delete them, clear the app's data, or uninstall the app.
+- **Activation record:** while the code is in use. Uninstalling does not remove it; ask the HelpDesk
+  to release your code.
+- **Counter details:** until you ask for them to be removed or leave the notices list, then erased
+  within 60 days.
+- **Usage measurements:** up to two months. **Crash reports:** 90 days.
 
 ## Your choices
 
-- **Check that notifications work.** Settings has a button that sends a test notification. It
-  appears only on your phone.
-- **Delete notices.** Press and hold a notice to select it, then delete it.
-- **Stop notices.** Turn off notifications for the app in your phone's settings, or uninstall it.
-- **Remove your information.** Uninstalling deletes everything the app stored on your phone. To have
-  your activation record, and any details recorded at the counter, removed as well, contact the
-  HelpDesk using the details below.
+- Choose which kinds of notice you receive in Settings, delete notices, or turn off the app's
+  notifications in your phone's settings.
+- Uninstall the app to remove everything stored on your phone. To have your activation record and
+  counter details removed as well, [contact us](/contact/).
+- Measurement applies to all phones at once and cannot be switched off for one phone. Because the
+  records carry no name or code, one person's records cannot be picked out and deleted; they expire
+  on their own. If you don't want your phone included, uninstall the app.
 
 ## Children
 
-Paramanu Seniors Notices is intended for adults. It is not directed at children and is not designed
-to appeal to them.
+Paramanu Seniors Notices is intended for adults. It is not directed at children.
 
 ## Changes to this policy
 
-If this policy changes, the new version will be published at this address and the date at the top
-will be updated.
+If this policy changes, the new version will be published here and the date above will be updated.
 
 ## Contact
 
