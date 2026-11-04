@@ -10,6 +10,11 @@
     <description>        -> notification body (plain text, no markup)
     <enclosure url=...>   -> PDF or image URL, with its MIME type
     <content:encoded>    -> full HTML body, for anything that wants the detail
+
+  The section publishes only this feed (see content/alerts/_index.md): alert
+  pages have no HTML. <guid> keeps the page permalink so IDs stay stable for
+  de-duplication, but it is not a working URL, hence isPermaLink="false".
+  <link> points at the attachment, or the home page when there is none.
 */ -}}
 {{- $pages := .RegularPages.ByDate.Reverse -}}
 {{- $pages = first 50 $pages -}}
@@ -17,7 +22,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ .Title }} — Paramanu Seniors Health</title>
-    <link>{{ .Permalink }}</link>
+    <link>{{ site.Home.Permalink }}</link>
     <description>{{ .Description | default "Latest notices, circulars and announcements for DAE pensioners and CHSS beneficiaries" }}</description>
     <language>{{ site.Language.LanguageCode }}</language>
     {{- with $pages }}
@@ -30,14 +35,14 @@
     {{- $attachment := partial "alerts/attachment.html" . }}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <link>{{ with $attachment }}{{ .permalink }}{{ else }}{{ site.Home.Permalink }}{{ end }}</link>
+      <guid isPermaLink="false">{{ .Permalink }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <description>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 400 }}{{ end }}</description>
       {{- with $attachment }}
       <enclosure url="{{ .permalink }}" length="{{ .size }}" type="{{ .mime }}" />
       {{- end }}
-      {{- range .Params.tags }}
+      {{- range .Params.labels }}
       <category>{{ . }}</category>
       {{- end }}
       <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>

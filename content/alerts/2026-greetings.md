@@ -7,7 +7,7 @@ type: alerts
 layout: single
 weight: 20
 attachment: /files/img-20240514-wa0038.jpg
-tags:
+labels:
   - .
 ---
 .

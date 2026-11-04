@@ -132,7 +132,11 @@ collections:
         media_folder: "/static/files"
         public_folder: "/files"
         hint: "Optional. One file only. Its link is included in the notification."
-      - *tags
+      # Not the shared *tags field: `tags` is a Hugo taxonomy, so tagged alerts
+      # would show up on the public /tags/ pages. `labels` only feeds <category>.
+      - <<: *tags
+        name: "labels"
+        label: "Labels"
       # Not the shared *body anchor: an alert can be just a headline, a summary
       # and a PDF, so the body is optional here while it stays required elsewhere.
       - <<: *body

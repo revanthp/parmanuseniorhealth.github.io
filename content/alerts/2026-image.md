@@ -7,7 +7,7 @@ type: alerts
 layout: single
 weight: 20
 attachment: /files/sbeba-kochi-consultation-2026-09-11.jpeg
-tags:
+labels:
   - ayurveda
 ---
 Image test
