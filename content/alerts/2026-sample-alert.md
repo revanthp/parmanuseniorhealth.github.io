@@ -7,7 +7,7 @@ type: "alerts"
 layout: "single"
 weight: 20
 attachment: "/files/list-of-holidays-2026.pdf"
-tags: ["holidays"]
+labels: ["holidays"]
 draft: true
 ---
 
